@@ -1,5 +1,6 @@
 html {
   font-family: OpenSans, sans-serif;
+  height: 100%;
 }
 
 .nav ul {
@@ -38,11 +39,15 @@ li a:hover {
   color: #fff;
 }
 
-.dark-blue{
+.white-bg {
+  background-color: #fff;
+}
+
+.dark-blue {
   background-color: #5E8F8F;
 }
 
-.blue{
+.blue {
   background-color: #6CBFBF;
 }
 
@@ -139,4 +144,36 @@ hr {
 
 .social-badge {
   margin: 45px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+    /* Set a specific height */
+    height: 35%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-top {
+    text-align: left;
+    position: absolute;
+    top: 6em;
+    left: 8em;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text-bottom {
+    text-align: left;
+    position: absolute;
+    bottom: -100%;
+    left: 8em;
+    transform: translate(-50%, -50%);
+    color: white;
 }
