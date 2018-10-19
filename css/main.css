@@ -3,6 +3,7 @@ html {
   height: 100%;
 }
 
+/* navigation */
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,6 +36,12 @@ li a:hover {
     transition: all .2s linear;
 }
 
+li a:active {
+    color: #82C341;
+
+}
+
+/* colours */
 .white {
   color: #fff;
 }
@@ -43,24 +50,44 @@ li a:hover {
   background-color: #fff;
 }
 
-.dark-blue {
+.dark-blue-bg {
   background-color: #5E8F8F;
 }
 
+.dark-blue {
+  color: #5E8F8F;
+}
+
 .blue {
+  color: #6CBFBF;
+}
+
+.blue-bg {
   background-color: #6CBFBF;
 }
 
 .light-blue{
+  color: #ACD3D3;
+}
+
+.light-blue-bg{
   background-color: #ACD3D3;
 }
 
 .light-green {
+  color: #B1D191;
+}
+
+.light-green-bg {
   background-color: #B1D191;
 }
 
 .green {
   color: #82C341;
+}
+
+.green-bg {
+  background-color: #82C341;
 }
 
 .grey {
@@ -127,6 +154,7 @@ hr {
   border-top: 2px solid #fff;
 }
 
+/* social badge */
 .fa {
     padding: 17px;
     width: 50px;
@@ -146,24 +174,25 @@ hr {
   margin: 45px;
 }
 
+/* hero-banner */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
-    /* Set a specific height */
+
     height: 35%;
 
-    /* Position and center the image to scale nicely on all screens */
+    /* Position */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-/* Place text in the middle of the image */
+/* text location */
 .hero-text-top {
     text-align: left;
     position: absolute;
-    top: 6em;
+    top: 4em;
     left: 8em;
     transform: translate(-50%, -50%);
     color: white;
@@ -172,8 +201,16 @@ hr {
 .hero-text-bottom {
     text-align: left;
     position: absolute;
-    bottom: -100%;
+    bottom: -170%;
     left: 8em;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text-btn {
+    text-align: right;
+    position: absolute;
+    bottom: -170%;
+    right: 2em;
     transform: translate(-50%, -50%);
     color: white;
 }
