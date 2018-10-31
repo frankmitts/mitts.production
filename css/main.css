@@ -25,6 +25,19 @@ html {
     text-decoration: none;
 }
 
+.btn-solid {
+  background-color: #fff;
+  color: #65737E;
+  padding: 8px 16px;
+  border: solid #fff 2px;
+  text-decoration: none;
+}
+
+.btn-solid:hover {
+  color: #82C341;
+  transition: all .2s linear;
+}
+
 .list {
     color: #65737E;
     text-decoration: none;
@@ -214,3 +227,5 @@ hr {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/*gallery control*/
