@@ -245,3 +245,35 @@ hr {
  .img:hover {
     opacity: .7;
  }
+
+
+ /*next previous*/
+ .previous {
+    background-color: #f1f1f1;
+    color: #65737E;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    padding: 8px 16px;
+    float: left;
+ }
+
+ .next {
+    background-color: #f1f1f1;
+    color: #65737E;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    padding: 8px 16px;
+    float: right;
+ }
+
+ .round {
+    border-radius: 50%;
+ }
+
+ .next:hover, .previous:hover {
+     background-color: #5E8F8F;
+     color: #fff;
+     transition: all .2s linear;
+ }
