@@ -25,9 +25,9 @@ html {
     text-decoration: none;
 }
 
-.btn-solid {
+.btn-white {
   background-color: #fff;
-  color: #65737E;
+  color: #65737e;
   padding: 8px 16px;
   transition: all .2s linear;
   border: solid #fff 2px;
@@ -35,14 +35,19 @@ html {
   border-radius: 24px;
 }
 
-.btn-solid:hover {
+.btn-white:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 
-  background-color: #65737E;
-  color: #fff;
-  padding: 8px 16px;
-  border: solid #fff 2px;
-  text-decoration: none;
-  transition: all .3s linear;
+}
+
+.btn-solid {
+  opacity: .7;
+  transition: all .5s linear;
+}
+
+.btn-solid:hover {
+  opacity: 1;
+  transition: all .5s linear;
 }
 
 .list {
@@ -219,17 +224,9 @@ hr {
 }
 
 .hero-text-bottom {
-    text-align: left;
-    position: absolute;
-    bottom: -170%;
-    left: 8em;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-.hero-text-btn {
     text-align: right;
     position: absolute;
-    bottom: -170%;
+    bottom: 10%;
     right: 2em;
     transform: translate(-50%, -50%);
     color: white;
@@ -273,7 +270,45 @@ hr {
  }
 
  .next:hover, .previous:hover {
-     background-color: #5E8F8F;
-     color: #fff;
-     transition: all .2s linear;
+    background-color: #5E8F8F;
+    color: #fff;
+    transition: all .2s linear;
  }
+
+
+@media only screen and (min-width: 25em) {
+
+  /* about page */
+
+  .about {
+    padding: 0;
+    margin: 0;
+  }
+
+.about-img {
+  width: 200px;
+  height: auto;
+  padding: 1em;
+  border-radius: 50%;
+  transition: all .2s linear;
+}
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  /* about page */
+
+  .about {
+    padding: 4em;
+
+  }
+
+  .about-img {
+    display: block;
+    width: 100%;
+    border-radius: 0%;
+    padding: 0;
+  }
+
+}
