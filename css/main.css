@@ -41,7 +41,7 @@ html {
 }
 
 .btn-solid {
-  opacity: .7;
+  opacity: 1;
   transition: all .5s linear;
 }
 

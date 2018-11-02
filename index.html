@@ -15,20 +15,24 @@
 <body>
 
   <section class="container">
-    <ul class="nav list-group pad-t-1-2 gutter">
-      <img> </img>
-      <li><a class="nav-btn milli active bold" href="index.html">Home</a></li>
-      <li><a class="nav-btn milli" href="project-1.html">Design</a></li>
-      <li><a class="nav-btn milli" href="photography.html">Photography</a></li>
-    </ul>
-      <img src="images/banner-home.png" alt="" style="width:100%;">
+    <nav role="navigation">
+      <ul class="nav list-group pad-t-1-2 gutter">
+        <a href="index.html"><img class="img-flex icon i-48" src="images/fm-logo.png"></img></a>
+        <li><a class="nav-btn milli active bold" href="index.html">Home</a></li>
+        <li><a class="nav-btn milli" href="project-1.html">Design</a></li>
+        <li><a class="nav-btn milli" href="photography.html">Photography</a></li>
+        </ul>
+    </nav>
+    <div role="banner">
+      <img src="images/banner-home.png" alt="BUILD. INSPIRE. GROW." style="width:100%;">
       <h1 class="centered yotta">BUILD. INSPIRE. GROW.</h1>
+    </div>
   </section>
 
 
   <section class="grid about">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <img class="about-img img-flex" src="images/portrait.jpg">
+      <img class="about-img img-flex" src="images/portrait.jpg" alt="self portrait">
     </div>
     <div class="blue-bg unit xs-1 s-1 m-1-2 l-1-2">
       <hr class="push-0 white">
@@ -37,13 +41,13 @@
     </div>
   </section>
 
-  <section class="grid">
+  <main role="main" class="grid">
 
 
     <a class="btn-solid" href="project-1.html">
       <div class="grid">
         <div class="hero-image unit xs-1 s-1 m-1 l-1 card">
-          <img class="img-flex" src="images/project-banner-1.jpg">
+          <img class="img-flex" src="images/project-banner-1.jpg" alt="#">
           <div class="hero-text-top">
             <p class="milli gutter-2 pad-t white push-0">Project number 1</p>
             <hr>
@@ -59,7 +63,7 @@
     <a class="btn-solid" href="project-2.html">
       <div class="grid">
         <div class="hero-image unit xs-1 s-1 m-1 l-1 card">
-          <img class="img-flex" src="images/project-banner-2.jpg">
+          <img class="img-flex" src="images/project-banner-2.jpg" alt="#">
           <div class="hero-text-top">
             <p class="milli gutter-2 pad-t white push-0">Project number 2</p>
             <hr>
@@ -74,7 +78,7 @@
     <a class="btn-solid" href="project-3.html">
       <div class="grid">
         <div class="hero-image unit xs-1 s-1 m-1 l-1 card">
-          <img class="img-flex" src="images/project-banner-3.jpg">
+          <img class="img-flex" src="images/project-banner-3.jpg" alt="#">
           <div class="hero-text-top">
             <p class="milli gutter-2 pad-t white push-0">Project number 3</p>
             <hr>
@@ -102,7 +106,7 @@
     <a class="btn-solid" href="photography.html">
       <div class="grid">
         <div class="hero-image unit xs-1 s-1 m-1 l-1 card">
-          <img class="img-flex" src="images/project-banner-3.jpg">
+          <img class="img-flex" src="images/project-banner-3.jpg" alt="#">
           <div class="hero-text-top">
             <p class="milli gutter-2 pad-t white push-0">Portraits</p>
             <hr>
@@ -115,14 +119,13 @@
     </a>
   </section>
 
-  <footer class="grey">
-    <div>
+  <footer class="grey grid" role="contentinfo">
+    <div class=" pad-t unit xs-1 s-1 m-1">
       <h4 class="text-center pad-t push-0 gutter-2 white">Contact</h4>
       <ul class="text-center list-group gutter-2">
         <li><a class="list white micro" href="francoismittins@gmail.com">francoismittins@gmail.com</a></li>
-        <li><a class="list white micro" href="">613-804-6409</a></li>
       </ul>
-      <p class="gutter-2 white micro">© All right reserved Francois Mittins</p>
+      <p class="text-center gutter-2 white micro">© All right reserved Francois Mittins</p>
     </div>
   </footer>
 </body>
