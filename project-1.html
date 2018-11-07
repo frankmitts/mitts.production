@@ -12,13 +12,13 @@
 </head>
 <body>
 
-  <section class="container embed">
+  <section class="container embed grid grid-middle">
     <nav role="navigation">
-      <ul class="nav list-group pad-t-1-2 gutter">
-        <img> </img>
-        <li><a class="nav-btn milli" href="index.html">Home</a></li>
-        <li><a class="nav-btn milli bold active" href="project-2.html">Design</a></li>
-        <li><a class="nav-btn milli" href="photography.html">Photography</a></li>
+      <ul class="nav list-group unit xs-1 s-1 m-1 l-1 gutter">
+        <li class="gutter pad-b-1-2"><a href="index.html"><img class="icon i-64 " src="images/fm-logo.svg"></a></li>
+        <li class="pad-t-1-2 pad-b-1-2"><a class="nav-btn milli" href="index.html">Home</a></li>
+        <li class="pad-t-1-2 pad-b-1-2"><a class="nav-btn milli  active bold" href="project-1.html">Design</a></li>
+        <li class="pad-t-1-2 pad-b-1-2"><a class="nav-btn milli" href="photography.html">Photography</a></li>
       </ul>
     </nav>
   </section>
@@ -36,14 +36,13 @@
     </div>
   </section>
 
-  <div class="grid">
-    <div class="center unit xs-1 s-1 m-1 l-1">
-      <ul class="list-group text-center island-2">
-        <a href="project-3.html" class="gutter-2 previous round">&#8249;</a>
-        <a href="project-2.html" class="gutter-2 next round">&#8250;</a>
-      </ul>
+  <div class="container-2 grid">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <a href="#" class="arrow left"></a>
+      <a href="#" class="arrow right"></a>
     </div>
   </div>
+
 
   <main role="main">
 
@@ -94,13 +93,18 @@
     </div>
   </div>
 
-  <footer class="grey grid" role="contentinfo">
+  <footer class="grey grid" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class=" pad-t unit xs-1 s-1 m-1">
       <h4 class="text-center pad-t push-0 gutter-2 white">Contact</h4>
       <ul class="text-center list-group gutter-2">
-        <li><a class="list white micro" href="francoismittins@gmail.com">francoismittins@gmail.com</a></li>
+        <li> <a class="list white micro" itemprop="email" href="mailto:francoismittins@gmail.com">francoismittins@gmail.com</a></li>
       </ul>
-      <p class="text-center gutter-2 white micro">© All right reserved Francois Mittins</p>
+      <p class="text-center gutter-2 white micro">© <span itemprop="name">Francois Mittins</span></p>
+      <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span class="text-center gutter-2 white micro" itemprop="addressLocality">Ottawa</span>
+        <span class="text-center gutter-2 white micro"  itemprop="addressRegion">Ontario</span>
+        <span class="text-center gutter-2 white micro" itemprop="addressCountry">Canada</span>
+      </p>
     </div>
   </footer>
 </body>
