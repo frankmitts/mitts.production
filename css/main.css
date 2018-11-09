@@ -167,12 +167,23 @@ hr {
 }
 
 /*gallery control*/
+
+.slide-show {
+  visibility: visible;
+}
+
 .gallery {
+  visibility: hidden;
+  display: none;
   background-color: #000;
 }
 
+.gallery-img {
+  visibility: hidden;
+  display: none;
+}
+
 .img {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 
   opacity: 1;
   transition: all .5s linear;
@@ -257,10 +268,39 @@ hr {
 }
 
 .about-img {
-  width: 200px;
-  height: auto;
+  width: 50%;
+
 
   transition: all .2s linear;
+}
+
+/*gallery control*/
+.gallery {
+  visibility: visible;
+  display: block;
+  background-color: #000;
+}
+
+.gallery-img {
+  visibility: visible;
+  display: block;
+}
+
+.slide-show {
+  visibility: hidden;
+}
+
+.mySlides {
+  display: none;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
 
 @media only screen and (min-width: 40em) {
@@ -294,6 +334,7 @@ hr {
 .intro-text {
   padding-left: 3em;
 }
+
 
 
 }
