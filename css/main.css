@@ -48,11 +48,12 @@ html {
 
 .project {
   background-color: #000;
+
 }
 
 .btn-solid:hover {
   opacity: .2;
-  transition: all .5s linear;
+
 }
 
 .list {
