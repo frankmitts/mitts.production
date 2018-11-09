@@ -6,24 +6,24 @@ html {
 /* navigation */
 
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .nav li {
-    float: left;
+  float: left;
 }
 
 .nav-btn {
-    display: block;
-    color: #65737E;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
+  display: block;
+  color: #65737E;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 .btn-white {
@@ -128,20 +128,20 @@ li a:active {
 }
 
 a:active {
-    color: #82C341;
+  color: #82C341;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: #65737E;
+position: relative;
+text-align: center;
+color: #65737E;
 }
 
 hr {
@@ -151,51 +151,51 @@ hr {
 
 /* hero-banner */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
-    /* Position */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Position */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* text location banners */
 
 .hero-text-bottom {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 /*gallery control*/
-  .gallery {
-    background-color: #000;
-  }
+.gallery {
+  background-color: #000;
+}
 
-  .img {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+.img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 
-    opacity: 1;
-    transition: all .5s linear;
-  }
- .img:hover {
-    opacity: .7;
- }
+  opacity: 1;
+  transition: all .5s linear;
+}
 
-  .intro-text {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+.img:hover {
+  opacity: .7;
+}
 
- /*next previous*/
+.intro-text {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
- .container-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10vmin;
-    height: 5vmin;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+/*next previous*/
+.container-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10vmin;
+  height: 5vmin;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .arrow {
@@ -229,13 +229,12 @@ hr {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-40%, -60%) rotate(45deg);
-          transform: translate(-40%, -60%) rotate(45deg);
+  transform: translate(-40%, -60%) rotate(45deg);
   width: 200%;
   height: 200%;
 }
 
 /* social-hover */
-
 .socials {
   border-radius: 50%;
 }
@@ -244,21 +243,18 @@ hr {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
   transition: all .2s linear;
-
 }
 
 @media only screen and (min-width: 25em) {
 
-  /* about page */
-
-  .about {
-    padding: 0;
-    margin: 0;
-  }
-  .about-content {
-    padding: 12px;
-
-  }
+/* about page */
+.about {
+  padding: 0;
+  margin: 0;
+}
+.about-content {
+  padding: 12px;
+}
 
 .about-img {
   width: 200px;
@@ -269,39 +265,35 @@ hr {
 
 @media only screen and (min-width: 40em) {
 
-  /* about page */
+/* about page */
+.about {
+  padding: 4em;
+}
 
-  .about {
-    padding: 4em;
+.about-img {
+  width: 100%;
+  border-radius: 0%;
+  padding: 0;
+}
 
-  }
-
-  .about-img {
-    width: 100%;
-    border-radius: 0%;
-    padding: 0;
-  }
-
-  /* text location banners */
-
-
+/* text location banners */
   .hero-text-bottom {
-      text-align: center;
-      right: 2em;
-      color: white;
-  }
+  text-align: center;
+  right: 2em;
+  color: white;
+}
 
-  hr {
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
+hr {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
 
-    border-top: 6px solid #fff;
-  }
+  border-top: 6px solid #fff;
+}
 
-  .intro-text {
-    padding-left: 3em;
-  }
+.intro-text {
+  padding-left: 3em;
+}
 
 
 }
