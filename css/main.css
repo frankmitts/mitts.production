@@ -173,6 +173,15 @@ hr {
   visibility: visible;
 }
 
+.slide-show-2 {
+  display: block;
+}
+
+.shadow-box {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 .gallery {
   visibility: hidden;
   display: none;
@@ -289,6 +298,7 @@ hr {
 
 .slide-show {
   visibility: hidden;
+  display: none;
 }
 
 .mySlides {

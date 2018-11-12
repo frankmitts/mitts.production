@@ -47,8 +47,29 @@
   <main role="main">
 
     <div class="grid grid-middle">
-      <div class="gutter-2 pad-t-2 pad-b-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-        <img class="img-flex push-0" src="images/rosies-mockup.jpg">
+      <div class="w3-content w3-display-container slide-show-2 unit xs-1s-1 m-1-2 l-1-2 island-2">
+        <div class="shadow-box">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-1.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-2.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-3.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-4.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-5.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-6.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-7.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-8.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-9.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-10.jpg">
+          <img class="img-flex mySlides" src="images/rosies/rosies-sketch-11.jpg">
+        </div>
+        <div class="w3-center w3-display-bottommiddle" style="width:100%">
+          <div class="grid text-center island">
+            <div class="exa unit xs-1-2 s-1-2 text-center w3-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="exa unit xs-1-2 s-1-2 text-center w3-right" onclick="plusDivs(1)">&#10095;</div>
+          </div>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+        </div>
       </div>
       <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
         <h2 class="dark-blue push-1-2">Concept</h2>
@@ -110,3 +131,32 @@
   </footer>
 </body>
 </html>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
