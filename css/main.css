@@ -194,7 +194,6 @@ hr {
 }
 
 .img {
-
   opacity: 1;
   transition: all .5s linear;
 }
@@ -209,50 +208,30 @@ hr {
 }
 
 /*next previous*/
-.container-2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 10vmin;
-  height: 5vmin;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+
+np-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 16px;
 }
 
-.arrow {
-  position: absolute;
-  top: 10%;
-  width: 3vmin;
-  height: 3vmin;
-  background: transparent;
-  border-top: 1vmin solid #fff;
-  border-right: 1vmin solid #fff;
-  box-shadow: 0 0 0 lightgray;
-  transition: all 200ms ease;
+a {
+  text-decoration: none;
+
 }
-.arrow.left {
-  left: 0;
-  -webkit-transform: translate3d(0, -50%, 0) rotate(-135deg);
-  transform: translate3d(0, -50%, 0) rotate(-135deg);
+
+a:hover {
+    color: #82C341;
+    transition: all .2s linear;
+
 }
-.arrow.right {
-  right: 0;
-  -webkit-transform: translate3d(0, -50%, 0) rotate(45deg);
-  transform: translate3d(0, -50%, 0) rotate(45deg);
+
+.previous {
+    color: #000;
 }
-.arrow:hover {
-  border-color: #82C341;
-  box-shadow: 0.5vmin -0.5vmin 0 #fff;
-}
-.arrow:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-40%, -60%) rotate(45deg);
-  transform: translate(-40%, -60%) rotate(45deg);
-  width: 200%;
-  height: 200%;
+
+.next {
+    color: #000;
 }
 
 /* social-hover */
