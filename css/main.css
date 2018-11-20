@@ -2,6 +2,9 @@ html {
   font-family: OpenSans, sans-serif;
   height: 100%;
 }
+.logo {
+  margin: 0 auto;
+}
 
 /* navigation */
 
@@ -263,6 +266,10 @@ a:hover {
   transition: all .2s linear;
 }
 
+.logo {
+  margin: 0 ;
+}
+
 /*gallery control*/
 .gallery {
   visibility: visible;
@@ -299,6 +306,7 @@ a:hover {
 .about {
   padding: 4em;
 }
+
 
 .about-img {
   width: 100%;
