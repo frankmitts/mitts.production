@@ -44,20 +44,18 @@ html {
 
 }
 
-.btn-solid {
-  opacity: 1;
-  transition: all .5s linear;
-}
-
 .project {
-  background-color: #000;
+  opacity: 1;
+  transition: all .3s linear;
+    background-color: #000;
+}
+
+
+.project:hover {
+  opacity: .75;
 
 }
 
-.btn-solid:hover {
-  opacity: .2;
-
-}
 
 .list {
     color: #65737E;
