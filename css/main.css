@@ -148,6 +148,8 @@ color: #65737E;
 
 hr {
   margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-top: 4px solid #fff;
 }
 
@@ -199,9 +201,6 @@ hr {
   transition: all .5s linear;
 }
 
-.img:hover {
-  opacity: .7;
-}
 
 .intro-text {
   padding-left: 1em;
@@ -246,6 +245,12 @@ a:hover {
   transition: all .2s linear;
 }
 
+.about-img {
+
+  border-radius: 0%;
+  padding: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
 /* about page */
@@ -257,12 +262,7 @@ a:hover {
   padding: 12px;
 }
 
-.about-img {
-  width: 50%;
 
-
-  transition: all .2s linear;
-}
 
 .logo {
   margin: 0 ;
@@ -321,8 +321,8 @@ a:hover {
 
 hr {
   margin-top: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
 
   border-top: 6px solid #fff;
 }
