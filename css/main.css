@@ -21,6 +21,11 @@ html {
   float: left;
 }
 
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .nav-btn {
   display: block;
   color: #65737E;
