@@ -177,6 +177,11 @@ hr {
 
 /*gallery control*/
 
+.mySlides {
+  display: block;
+  visibility: visible;
+}
+
 .slide-show {
   visibility: visible;
 }
@@ -263,11 +268,10 @@ a:hover {
   padding: 0;
   margin: 0;
 }
+
 .about-content {
   padding: 12px;
 }
-
-
 
 .logo {
   margin: 0 ;
@@ -290,9 +294,6 @@ a:hover {
   display: none;
 }
 
-.mySlides {
-  display: none;
-}
 .w3-left, .w3-right, .w3-badge {
   cursor: pointer;
   transition: all .2s linear;
