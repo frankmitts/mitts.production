@@ -49,15 +49,14 @@ li {
 
 }
 
-.project {
-  opacity: 1;
+.cards {
   transition: all .3s linear;
-    background-color: #000;
+
 }
 
 
-.project:hover {
-  opacity: .75;
+.cards:hover {
+background-color: #6BA520;
 
 }
 
@@ -195,6 +194,10 @@ hr {
 
 }
 
+.cards {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
 
 .gallery {
   visibility: hidden;
