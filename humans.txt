@@ -1,0 +1,12 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Francois Mittins <francoismittins@gmail.com>
+Site: http://francoismittins.ca
+GitHub: https://github.com/frankmitts
+Location: Ottawa, Canada
+
+---
+
+# THANKS

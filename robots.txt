@@ -1,0 +1,6 @@
+# www.robotstxt.org
+
+Sitemap: http://francoismittins.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
