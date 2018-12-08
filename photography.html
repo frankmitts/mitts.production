@@ -39,7 +39,7 @@
     <nav role="navigation">
       <ul class="nav list-group unit xs-1 s-1 m-1 l-1">
         <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro" href="index.html">Home</a></li>
-        <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro" href="design.html">Design</a></li>
+        <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro" href="project-1.html">Design</a></li>
         <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro active bold" href="photography.html">Photography</a></li>
       </ul>
     </nav>
@@ -112,13 +112,18 @@
       <img class="img-flex mySlides" src="images/photography/picture-11.jpg">
       <img class="img-flex mySlides" src="images/photography/picture-12.jpg">
       <div class="w3-center w3-display-bottommiddle" style="width:100%">
-        <div tabindex="0" role="navigation" class="grid text-center island-2">
-          <a tabindex="0" class="exa previous unit xs-1-2 s-1-2 text-center w3-left" onclick="plusDivs(-1)">&#10094;</a>
-          <a tabindex="0" class="exa next unit xs-1-2 s-1-2 text-center w3-right" onclick="plusDivs(1)">&#10095;</a>
+
+      <div role="navigation" class="text-center pad-t-2 pad-b-2">
+        <div class="circle">
+          <span><a tabindex="0" class="arrow white text-center w3-white" onclick="plusDivs(-1)">&#10094;</a></span>
         </div>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+        <div class="circle">
+          <span><a tabindex="0" class="arrow white text-center w3-white" onclick="plusDivs(1)">&#10095;</a></span>
+        </div>
+      </div>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
       </div>
     </div>
   </main>

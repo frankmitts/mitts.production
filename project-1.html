@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>project-1</title>
+  <title>Rosie's</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -40,7 +40,7 @@
     <nav role="navigation">
       <ul class="nav list-group unit xs-1 s-1 m-1 l-1">
         <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro" href="index.html">Home</a></li>
-        <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro  active bold" href="design.html">Design</a></li>
+        <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro  active bold" href="project-1.html">Design</a></li>
         <li tabindex="0" class="text-center pad-t-1-2 pad-b-1-2"><a class="nav-btn micro" href="photography.html">Photography</a></li>
       </ul>
     </nav>
@@ -48,22 +48,51 @@
 
   <section tabindex="0" class="grid green-bg embed description" role="banner">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <p itemprop="name" class="push-0 bold gutter-2 pad-t white text-left">Branding</p>
+      <h2 itemprop="name" class="push-0 bold gutter-2 pad-t white text-left terra">BRANDING</h2>
       <hr class="push-2">
     </div>
     <div class="intro-text unit xs-1 s-1 m-1-2 l-1-2">
       <p itemprop="description" class="push-2 micro white max-length">Rosie’s is a newly emerging restaurant that serves delicious southern food. What sets this place apart from the others is its unique pairing with a raw bar. Rosie’s has a great designed interior, recipe and atmosphere that will encourage everyone to come back. That being said, the restaurant uses red to demonstrate its energetic vibe paired with creating a more harmonious yet eye-catching design that would reflect the restaurant.</p>
     </div>
-    <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
-      <h2 itemprop="name" class="white text-right terra">ROSIE'S</h2>
-    </div>
   </section>
 
-    <div role="navigation" class="text-center gutter pad-b pad-t-1-2">
-      <span tabindex="0"><a href="project-4.html" class="np-btn gutter-2 previous round">Previous</a></span>
-      <span tabindex="0"><a href="project-2.html" class="np-btn gutter-2 next round">Next</a></span>
+  <div role="navigation" class="grid pad-b-2 pad-t-1-2">
+    <div tabindex="0" class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+      <a aria-label="" class="btn-solid" href="project-1.html">
+          <div class="text-center island-1-2 green-bg cards">
+            <h3 itemprop="name" class="white push-0">BRANDING</h3>
+            <hr>
+          </div>
+      </a>
     </div>
 
+    <div tabindex="0" class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+      <a aria-label="" class="btn-solid" href="project-2.html">
+          <div class="island-1-2 text-center light-green-bg cards">
+            <h3 itemprop="name" class="white push-0">PRINT</h3>
+            <hr>
+          </div>
+      </a>
+    </div>
+
+    <div tabindex="0" class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+      <a aria-label="" class="btn-solid" href="project-3.html">
+          <div class="island-1-2 text-center light-green-bg cards">
+            <h3 itemprop="name" class="white push-0">MARKETING</h3>
+            <hr>
+          </div>
+      </a>
+    </div>
+
+    <div tabindex="0" class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+      <a aria-label="" class="btn-solid" href="project-4.html">
+          <div class="island-1-2 text-center light-green-bg cards">
+            <h3 itemprop="name" class="white push-0">LOGOS</h3>
+            <hr>
+          </div>
+      </a>
+    </div>
+  </div>
 
   <main role="main">
     <h2 itemprop="name" class="pad-t-2 gutter-2 dark-blue">Creative Stages</h2>
@@ -93,9 +122,20 @@
           <img class="img-flex mySlides" src="images/rosies/rosies-sketch-11.jpg">
         </div>
         <div class="w3-center w3-display-bottommiddle" style="width:100%">
-          <div class="grid text-center island">
-            <div tabindex="0" class="exa unit xs-1-2 s-1-2 text-center w3-left" onclick="plusDivs(-1)">&#10094;</div>
-            <div tabindex="0" class="exa unit xs-1-2 s-1-2 text-center w3-right" onclick="plusDivs(1)">&#10095;</div>
+          <div role="navigation" class="text-center pad-t-2 pad-b-2">
+
+            <a>
+              <div tabindex="0" class="circle" onclick="plusDivs(-1)">
+                <span class="arrow white text-center w3-white">&#10094;</span>
+              </div>
+            </a>
+
+            <a>
+              <div tabindex="0" class="circle" onclick="plusDivs(1)">
+                <span class="arrow white text-center w3-white">&#10095;</span>
+              </div>
+            </a>
+
           </div>
           <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
           <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
@@ -146,9 +186,13 @@
     </div>
   </section>
 
-  <div role="navigation" class="text-center gutter pad-b">
-    <span tabindex="0"><a href="project-4.html" class="pn-btn gutter-2 previous round">Previous</a></span>
-    <span tabindex="0"><a href="project-2.html" class="pn-btn gutter-2 next round">Next</a></span>
+  <div role="navigation" class="text-center pad-t pad-b">
+    <div tabindex="0" class="circle">
+      <span><a href="project-4.html" class="arrow white">&#10094;</a></span>
+    </div>
+    <div tabindex="0" class="circle">
+      <span><a href="project-2.html" class="arrow white">&#10095;</a></span>
+    </div>
   </div>
 
   <footer class="grey grid" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
