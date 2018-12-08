@@ -2,11 +2,21 @@ html {
   font-family: OpenSans, sans-serif;
   height: 100%;
 }
+
+h2, main {
+  text-align: center;
+}
+
 .logo {
   margin: 0 auto;
 }
 
 /* navigation */
+
+.design-nav {
+  display: none;
+  visibility: hidden;
+}
 
 .skip-links {
   background-color: #000;
@@ -139,7 +149,7 @@ color: #65737E;
 }
 
 hr {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-left: 20px;
   margin-right: 20px;
@@ -310,6 +320,20 @@ a:hover {
 
 @media only screen and (min-width: 40em) {
 
+h2, p {
+  text-align: left;
+}
+
+.design-btn {
+  display: none;
+  visibility: hidden;
+}
+
+.design-nav {
+  display: block;
+  visibility:visible;
+}
+
 /* about page */
 .about {
   padding: 4em;
@@ -330,9 +354,9 @@ a:hover {
 }
 
 hr {
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 
   border-top: 6px solid #fff;
 }
