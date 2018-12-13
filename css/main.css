@@ -3,6 +3,10 @@ html {
   height: 100%;
 }
 
+.contact-sections {
+  padding: 20rem;
+}
+
 h2, main {
   text-align: center;
 }
