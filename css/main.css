@@ -327,6 +327,10 @@ h2, p {
   text-align: left;
 }
 
+.nav li {
+  float: left;
+}
+
 .design-btn {
   display: none;
   visibility: hidden;
