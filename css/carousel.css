@@ -118,5 +118,14 @@
 .row {
   background-color: #ececec;
   background-color: rgba(233,230,230,0.79);
-  padding: 2% 0;
+  padding: 0;
+  margin-bottom: 2em;
+
+}
+
+h3 {
+
+  margin-top: 2em;
+  background-color: #65737E;
+
 }
