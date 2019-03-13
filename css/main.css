@@ -170,6 +170,18 @@ hr {
   border-top: 4px solid #fff;
 }
 
+/* contact-form */
+
+label {
+ text-align: left;
+ color: #65737E;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #dcdcdc;
+}
+
 /* hero-banner */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -348,6 +360,12 @@ h2, p {
 
 .nav li {
   float: left;
+}
+
+label {
+ text-align: center;
+ padding-right: 2em;
+ color: #65737E;
 }
 
 .design-btn {
