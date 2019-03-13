@@ -4,9 +4,8 @@ $EmailFrom = "chriscoyier@gmail.com";
 $EmailTo = "francoismittins@gmail.com";
 $Subject = "Nice & Simple Contact Form by CSS-Tricks";
 $Name = Trim(stripslashes($_POST['Name']));
-$Tel = Trim(stripslashes($_POST['Tel']));
 $Email = Trim(stripslashes($_POST['Email']));
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Message = Trim(stripslashes($_POST['Message']));
 
 // validation
 $validationOK=true;
@@ -19,9 +18,6 @@ if (!$validationOK) {
 $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
-$Body .= "\n";
-$Body .= "Tel: ";
-$Body .= $Tel;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
