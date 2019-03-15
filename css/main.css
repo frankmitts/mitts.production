@@ -109,6 +109,11 @@ li a:active {
   background-color: #fff;
 }
 
+.dark-bg {
+  background-color: #000;
+}
+
+
 .light-green {
   color: #B1D191;
 }
