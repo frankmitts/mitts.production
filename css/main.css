@@ -460,7 +460,7 @@ hr {
 
 
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 64em) {
 
   .video {
     width: 1080px;
@@ -470,11 +470,11 @@ hr {
 
 }
 
-@media only screen and (min-width: 96em) {
+@media only screen and (min-width: 98em) {
 
   .video {
-    width: 1920px;
-    height: 1080px;
+    width: 1720px;
+    height: 880px;
   }
 
 }
