@@ -469,3 +469,12 @@ hr {
 
 
 }
+
+@media only screen and (min-width: 96em) {
+
+  .video {
+    width: 1920px;
+    height: 1080px;
+  }
+
+}
