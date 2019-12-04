@@ -227,7 +227,7 @@ input {
 .gallery {
   visibility: hidden;
   display: none;
-  background-color: #000;
+
 }
 
 .gallery-img {
@@ -366,7 +366,7 @@ a:hover {
 .gallery {
   visibility: visible;
   display: block;
-  background-color: #000;
+
 }
 
 .gallery-img {
@@ -387,6 +387,16 @@ a:hover {
   height: 13px;
   width: 13px;
   padding: 0;
+}
+
+.btn-img {
+  opacity: 1.0;
+  text-shadow: 0.0;
+}
+
+.btn-img:hover {
+  opacity: 0.5;
+  text-shadow: 1.0
 }
 
 @media only screen and (min-width: 40em) {
