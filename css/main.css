@@ -66,6 +66,15 @@ li {
 
 }
 
+.btn-hero {
+  color: #fff;
+}
+
+.btn-hero:hover {
+  color: #82C341;
+}
+
+
 .btn-solid {
   background-color: #82C341;
   color: #fff;
