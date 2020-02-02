@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
   <link href="css/carousel.css" rel="stylesheet">
 
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="faviconit/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
@@ -35,9 +35,6 @@
   <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
   <meta name="msapplication-config" content="faviconit/browserconfig.xml">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" ></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="slick.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
   <ul class="skip-links">
@@ -48,62 +45,79 @@
 
 <body>
 
-  <header class="pad-t pad-b">
+  <div class="smallheader topnav">
+    <a href="#home" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo-white.svg"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div class="hamburg" id="myLinks">
+      <a href="#work">WORK</a>
+      <a href="contact.html">CONTACT/ABOUT</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <div class="hamburg">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
 
-    <div class="navbar text-center">
+<header>
+  <div class="container">
+    <img class="img-flex hero-image" src="images/photography/hero-banner/home-banner-2.jpg" alt="Avatar">
+
+    <div class="top bigheader text-center">
       <div class="dropdown gutter">
-        <button class="milli btn-white">WORK
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a class="text-left milli" href="portrait.html">Photography</a>
-          <a class="text-left milli" href="videography.html">Cinematography</a>
-        </div>
+        <a class="gutter milli btn-hero island-1-2" href="#work">WORK</a>
       </div>
-      <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
-
-      <a class="gutter milli btn-white island-1-2" href="contact.html">CONTACT</a>
+      <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo-white.svg"></a>
+      <a class="gutter milli btn-hero island-1-2" href="contact.html">CONTACT</a>
     </div>
-  </header>
 
-  <section tabindex="0" class="about">
-    <div class="grid wrapper">
-      <div class="about-content pad-b unit xs-1 text-center">
-        <h1 itemprop="keywords" class="push-0 green tena gutter max-length">"BUILD. INSPIRE. GROW."</h1>
-        <hr class="push-1-2 green">
-      </div>
+    <div class="centered white">
+      <h1 class="bold white push-0 yotta">LET'S WORK TOGETHER</h1>
+      <a class="btn-hero" href="contact.html#sendemail"> <p class="text-center pad-t-1-2 milli">START A CONVERSATION…</p></a>
     </div>
-  </section>
+  </div>
+<header>
 
-<main class="large-gutter pad-b-2">
-  <div>
-    <p class="text left milli bold push-0 gutter-2">//  "STAGE-01"</p>
-    <a  href="portrait.html#S1"> <img tabindex="0" class="btn-img img img-flex push-0" src="images/photography/stage-01/index-stage-01.jpg" alt=""></a>
+<main id="work"class="pad-b-2">
+
+<div class="grid">
+  <div class="unit s-1 m-1  pad-t gutter-2 container">
+    <a href="portrait.html#s1"><img class="image img-flex" src="images/photography/hero-banner/stage-collection-1.jpg" alt="Avatar"></a>
+    <div class="bottom-left white">
+       <h1 class="tera push-0 ">STAGE-COLLECTION</h1>
+    </div>
   </div>
 
-
-  <div>
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "STAGE-02"</p>
-    <a href="portrait.html#S2"> <img tabindex="0" class="btn-img img img-flex push-0" src="images/photography/stage-02/index-stage-02.jpg" alt=""></a>
+  <div class="unit s-1 m-1  pad-t gutter-2 container">
+    <a href="headshot.html#headshot"><img class="image img-flex" src="images/photography/hero-banner/headshots.jpg" alt="Avatar"></a>
+    <div class="bottom-left white">
+       <h1 class="tera push-0 ">BUSINESS HEADSHOTS</h1>
+    </div>
   </div>
 
-  <div>
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "RETRO"</p>
-    <a href="portrait.html#S4"> <img tabindex="0" class="btn-img img img-flex push-0" src="images/photography/throwback/index-retro-03.jpg" alt=""></a>
+  <div class="unit s-1 m-1 pad-t gutter-2 container">
+    <a href="lifestyle.html#lifestyle"><img class="image img-flex" src="images/photography/hero-banner/lifestyle.jpg" alt="Avatar"></a>
+    <div class="bottom-left white">
+       <h1 class="tera push-0 ">LIFESTYLE PORTRAIT</h1>
+    </div>
   </div>
 
-  <div>
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "HOUSE ON FIRE"</p>
-    <a href="portrait.html#S4"> <img tabindex="0" class="btn-img img img-flex push-0" src="images/photography/houseonfire/index-stage-03.jpg" alt=""></a>
+  <div class="unit s-1 m-1 pad-t gutter-2 container">
+    <a href="event.html#event"><img class="image img-flex" src="images/photography/hero-banner/event.jpg" alt="Avatar"></a>
+    <div class="bottom-left white">
+       <h1 class="tera push-0 ">EVENT</h1>
+    </div>
   </div>
 
+</div>
 </main>
 
 
   <footer class="" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="grey pad-b-1-2 grid grid-middle">
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t">
-        <h4 class="giga text-center gutter white">"FOLLOW MY JOURNEY"</h4>
+        <h4 class="giga text-center gutter white">FOLLOW MY JOURNEY ></h4>
       </div>
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center ">
         <a aria-label="facebook" class="island-1-2" href="https://www.facebook.com/FrancoisMittinsPhotography/"><img tabindex="0" class="socials icon i-48" src="images/icon-facebook.svg" alt="facebook link"></a>
@@ -115,32 +129,17 @@
       <div class="grey unit xs-1 s-1 m-1 l-1 text-center  pad-t-1-2 pad-b-1-2">
         <span class="white nano">© <span itemprop="name">2019 François Mittins</span></span>
       </div>
-
   </footer>
 
-  <script type="text/javascript">
-		$(document).ready(function(){
-			$('.customer-logos').slick({
-				slidesToShow: 6,
-				slidesToScroll: 1,
-				autoplay: true,
-				autoplaySpeed: 1500,
-				arrows: false,
-				dots: false,
-					pauseOnHover: false,
-					responsive: [{
-					breakpoint: 768,
-					settings: {
-						slidesToShow: 4
-					}
-				}, {
-					breakpoint: 520,
-					settings: {
-						slidesToShow: 3
-					}
-				}]
-			});
-		});
-	</script>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>

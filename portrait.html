@@ -10,6 +10,8 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
     <link href="css/photography.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
   <link rel="shortcut icon" href="faviconit/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
@@ -34,29 +36,39 @@
 
 </head>
 <body>
-  <header class="pad-t pad-b">
 
-    <div class="navbar text-center">
-      <div class="dropdown gutter">
-        <button class="milli btn-white">WORK
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a class="text-left milli" href="portrait.html">Photography</a>
-          <a class="text-left milli" href="videography.html">Cinematography</a>
-        </div>
-      </div>
-      <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
-
-      <a class="gutter milli btn-white island-1-2" href="contact.html">CONTACT</a>
+  <div class="smallheader topnav">
+    <a href="#home" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo-white.svg"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div class="hamburg" id="myLinks">
+      <a href="index.html#work">WORK</a>
+      <a href="contact.html">CONTACT/ABOUT</a>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <div class="hamburg">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+
+  <header class=" bigheader pad-t pad-b">
+
+      <div class="top bigheader text-center">
+        <div class="dropdown gutter">
+          <a class="gutter grey-text milli btn-hero island-1-2" href="index.html#work">WORK</a>
+        </div>
+        <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
+        <a class="gutter milli grey-text btn-hero island-1-2" href="contact.html">CONTACT</a>
+      </div>
   </header>
 
 <main class="large-gutter">
   <section tabindex="0" class="grid  description" role="banner">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <h3 id="S1" itemprop="name" class="exa bold push-0 gutter-2 pad-t-2 text-left text-center">"STAGE 01"</h3>
-      <p class="text-center milli push-0 grey-text">MUA // Gabriela Azahar<br>Model // Hollie Kennedy</p>
+      <h3 id="S1" itemprop="name" class="yotta push-0 gutter-2 pad-t-2 text-left">STAGE 01</h3>
+      <h4 class="peta text-left push-0 gutter-2">ARTIST STATEMENT/CONTEXT</h4>
+      <p class="text-left grey-text milli pad-t pad-b push-0 gutter-2">"Stage" is a personal project of mine. The goal is to bring a cinematic approach to my photography by creating these different unique stages where the subject interacts with its surroundings and feelings.</p>
 
     </div>
     <div class="container gallery">
@@ -85,8 +97,9 @@
 
   <section tabindex="0" class="grid  description" role="banner">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <h3 id="S2" itemprop="name" class="exa bold push-0 gutter-2 pad-t-2 text-left text-center">"STAGE 02"</h3>
-      <p class="text-center milli push-0 grey-text">Clothing brand // Greatest Ever<br>Model // Kevin Percy</p>
+      <h3 id="S1" itemprop="name" class="yotta bold push-0 gutter-2 pad-t-2 text-left">STAGE 02</h3>
+      <h4 class="PETA text-left push-0 gutter-2">ARTIST STATEMENT/CONTEXT</h4>
+      <p class="text-left grey-text milli pad-t pad-b push-0 gutter-2">Exploring the power of a light bulb.</p>
 
     </div>
     <div class="container gallery">
@@ -110,35 +123,32 @@
   </section>
   <section tabindex="0" class="grid  description" role="banner">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <h3 id="S2" itemprop="name" class="exa bold push-0 gutter-2 pad-t-2 text-left text-center">"RETRO"</h3>
-      <p class="text-center milli push-0 grey-text">Model // Michaela Thiviergee</p>
+      <h3 id="S1" itemprop="name" class="yotta bold push-0 gutter-2 pad-t-2 text-left">STAGE 03</h3>
+      <h4 class="peta text-left push-0 gutter-2">ARTIST STATEMENT/CONTEXT</h4>
+      <p class="text-left grey-text milli pad-t pad-b push-0 gutter-2">I placed this reading setup I've created in the middle of a forest. The vision behind this Stage was to transport the reader into a different environment giving these pictures the illusion she is creating the environment based on the book.</p>
 
     </div>
     <div class="container gallery">
       <div class="grid">
 
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-4 img-container-right">
-          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/retro-01.jpg" alt=""/>
+        <div class="unit xs-1 s-1-2 m-1-2 l-1 xl-1-4 img-container-right">
+          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/shot (2).jpg" alt=""/>
         </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-4 img-container-right">
-          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/retro-02.jpg" alt=""/>
+        <div class="unit xs-1 s-1-2 m-1-2 l-1 xl-1-4 img-container-right">
+          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/shot (1).jpg" alt=""/>
         </div>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1-4 img-container-right">
-          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/retro-03.jpg" alt=""/>
+          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/shot (3).jpg" alt=""/>
         </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-4 img-container-right">
-          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/retro-04.jpg" alt=""/>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-4img-container-right">
-          <img tabindex="0" class="island-1-2 gallery-img embed img img-flex push-0" src="images/photography/throwback/retro-05.jpg" alt=""/>
-        </div>
+
   </section>
 
 
   <section tabindex="0" class="grid  description" role="banner">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <h3 id="S4" itemprop="name" class="exa bold push-0 gutter-2 pad-t-2 text-left text-center">"HOUSE ON FIRE"</h3>
-      <p class="text-center milli push-0 grey-text">Models // Emma Terra, Brittany Delgatz</p>
+      <h3 id="S1" itemprop="name" class="yotta bold push-0 gutter-2 pad-t-2 text-left">STAGE 04</h3>
+      <h4 class="peta text-left push-0 gutter-2">ARTIST STATEMENT/CONTEXT</h4>
+      <p class="text-left pad-t milli grey-text pad-b push-0 gutter-2">"House of fire" a room full of greenery.</p>
 
     </div>
     <div class="container gallery">
@@ -169,7 +179,7 @@
   <footer class="" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="grey pad-b-1-2 grid grid-middle">
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t">
-        <h4 class="giga text-center gutter white">"FOLLOW MY JOURNEY"</h4>
+        <h4 class="giga text-center gutter white">FOLLOW MY JOURNEY ></h4>
       </div>
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center ">
         <a aria-label="facebook" class="island-1-2" href="https://www.facebook.com/FrancoisMittinsPhotography/"><img tabindex="0" class="socials icon i-48" src="images/icon-facebook.svg" alt="facebook link"></a>
@@ -183,5 +193,15 @@
       </div>
 
   </footer>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>

@@ -10,6 +10,8 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
     <link href="css/photography.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
   <link rel="shortcut icon" href="faviconit/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
@@ -34,53 +36,57 @@
 
 </head>
 <body>
-  <header class="pad-t pad-b">
 
-    <div class="navbar text-center">
-      <div class="dropdown gutter">
-        <button class="milli btn-white">WORK
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a class="text-left milli" href="portrait.html">Photography</a>
-          <a class="text-left milli" href="videography.html">Cinematography</a>
-        </div>
-      </div>
-      <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
-
-      <a class="gutter milli btn-white " href="contact.html">CONTACT</a>
+  <div class="smallheader topnav">
+    <a href="#home" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo-white.svg"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div class="hamburg" id="myLinks">
+      <a href="index.html#work">WORK</a>
+      <a href="contact.html">CONTACT/ABOUT</a>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <div class="hamburg">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+
+  <header class="bigheader pad-t pad-b">
+
+      <div class="top bigheader text-center">
+        <div class="dropdown gutter">
+          <a class="gutter grey-text milli btn-hero island-1-2" href="index.html#work">WORK</a>
+        </div>
+        <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
+        <a class="gutter milli grey-text btn-hero island-1-2" href="contact.html">CONTACT</a>
+      </div>
   </header>
 
   <section tabindex="0" class="pad-b grid description" role="banner">
     <div class="island unit xs-1 s-1 m-1 l-1">
-      <p itemprop="name" class="exa bold push-0 gutter-2 pad-t text-center">"CINEMATOGRAPHY"</p>
+      <p itemprop="name" class="yotta bold push-0 gutter-2 pad-t text-center">CINEMATOGRAPHY</p>
     </div>
   </section>
 
   <main class="pad-t large-gutter" role="main">
 
-    <p class="pad-t-2 text push-0 text-left milli bold  gutter-2">//  "FIGHT FOR THE LIGHT"</p>
-    <div class="embed embed-24by10">
-      <iframe class="embed-item" src="https://player.vimeo.com/video/375296518" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "KOBLE BRAND FILM BTS"</p>
+    <p class="pad-t-2 text-left peta bold push-0 gutter-2">//  KOBLE BRAND FILM BTS</p>
     <div class="embed embed-16by9">
       <iframe class="embed-item" src="https://player.vimeo.com/video/374133502" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "EMBRUN BARBER"</p>
+    <p class="peta pad-t-2 text-left push-0 text-left bold  gutter-2">//  FIGHT FOR THE LIGHT</p>
+    <div class="embed embed-24by10">
+      <iframe class="embed-item" src="https://player.vimeo.com/video/375296518" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <p class="pad-t-2 text-left peta bold push-0 gutter-2">//  EMBRUN BARBER</p>
     <div class="embed embed-16by9">
       <iframe class="embed-item" src="https://player.vimeo.com/video/339475987"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "MANON N PRINCE TESTIMONIAL"</p>
-    <div class="embed embed-16by9">
-      <iframe class="embed-item" src="https://player.vimeo.com/video/334716125"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-
-    <p class="pad-t-2 text left milli bold push-0 gutter-2">//  "HEART AND CROWN FIGHT FOR THE CURE"</p>
+    <p class="pad-t-2 text-left peta bold push-0 gutter-2">//  HEART AND CROWN FIGHT FOR THE CURE</p>
     <div class="embed embed-16by9">
       <iframe class="embed-item" src="https://player.vimeo.com/video/372163217"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
@@ -91,7 +97,7 @@
   <footer class="" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="grey pad-b-1-2 grid grid-middle">
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t">
-        <h4 class="giga text-center gutter white">"FOLLOW MY JOURNEY"</h4>
+        <h4 class="giga text-center gutter white">FOLLOW MY JOURNEY ></h4>
       </div>
       <div class="grey unit xs-1 s-1 m-1-2 l-1-2 text-center ">
         <a aria-label="facebook" class="island-1-2" href="https://www.facebook.com/FrancoisMittinsPhotography/"><img tabindex="0" class="socials icon i-48" src="images/icon-facebook.svg" alt="facebook link"></a>
@@ -105,5 +111,15 @@
       </div>
 
   </footer>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>
