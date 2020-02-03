@@ -408,7 +408,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-i {
+.arrow {
   border: solid white;
   border-width: 0 6px 6px 0;
   display: inline-block;
@@ -421,6 +421,10 @@ i {
 }
 
 @media only screen and (min-width: 25em) {
+
+.arrow, .down {
+  display: none;
+}
 
   .bigheader {
     display: none;
@@ -577,6 +581,10 @@ hr {
 
 }
 @media only screen and (min-width: 64em) {
+
+  .arrow, .down {
+    display: block;
+  }
 
   .smallheader {
     display: none;
