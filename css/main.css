@@ -583,7 +583,7 @@ hr {
 @media only screen and (min-width: 64em) {
 
   .arrow, .down {
-    display: block;
+    display: flex;
   }
 
   .smallheader {
