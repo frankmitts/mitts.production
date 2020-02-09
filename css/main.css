@@ -423,11 +423,11 @@ a:hover {
 /* The sidebar menu */
 .sidenav {
   height: auto;
-  width: 145px; /* Set the width of the sidebar */
+  width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+  z-index: 5; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 2em;
+  left: 0;
   background-color: #fff;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px;
@@ -627,7 +627,7 @@ hr {
   margin-left: 30px;
   margin-right: 30px;
 
-  border-top: 6px solid ;
+  border-top: 3px solid ;
 }
 
 .intro-text {
