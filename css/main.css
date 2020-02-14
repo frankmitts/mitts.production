@@ -400,7 +400,7 @@ a:hover {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #000;
+  background-color: #65737E;
   color: white;
 }
 
@@ -422,13 +422,13 @@ a:hover {
 
 /* The sidebar menu */
 .sidenav {
-  height: auto;
+  height:auto;
   width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 5; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #fff;
+  background-color: #65737E;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px;
 }
@@ -438,7 +438,7 @@ a:hover {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #fff;
   display: block;
     transition: all .2s linear;
 }
