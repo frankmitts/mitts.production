@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.clara {
+  font-family: 'Libre Baskerville', serif;
+}
+
 .contact-sections {
   padding: 20rem;
 }
@@ -114,6 +118,11 @@ li a:active {
 .yellow-bg {
   background-color: #f2a603;
 }
+
+.yellow {
+  color: #f2a603;
+}
+
 .white {
   color: #fff;
 }
