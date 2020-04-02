@@ -1011,7 +1011,7 @@ button,
 .btn {
   font-family: Nunito, sans-serif;
   cursor: pointer;
-  display: inline-block;
+
   margin-bottom: .5em;
   overflow: visible;
   padding: .375em .75em .42em;
@@ -1020,7 +1020,7 @@ button,
   appearance: none;
 
   border-radius: 6px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   text-transform: none;
   transition: all 1s ease;
@@ -1037,7 +1037,7 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  color: #82c341;
+  color: #f2a603;
   transition: all 1s ease;
 
 }

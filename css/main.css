@@ -67,7 +67,7 @@ li {
 }
 
 .btn-white:hover {
-  color: #82C341;
+  color: #F2A603;
 
 }
 
@@ -76,12 +76,12 @@ li {
 }
 
 .btn-hero:hover {
-  color: #82C341;
+  color: #F2A603;
 }
 
 
 .btn-solid {
-  background-color: #82C341;
+  background-color: #000;
   color: #fff;
   transition: all .2s linear;
 }
@@ -114,6 +114,13 @@ li a:active {
 
 /* colours */
 
+.cream {
+  background: #F7EEE0;
+}
+
+.cream-text {
+  color: #F7EEE0;
+}
 
 .yellow-bg {
   background-color: #f2a603;
@@ -132,37 +139,22 @@ li a:active {
 }
 
 .dark-bg {
-  background-color: #000;
+  background-color: #383633;
 
 }
 
 
-.light-green {
-  color: #B1D191;
+.mid-grey {
+  color: #78746d;
 }
 
-.light-green-bg {
-  background-color: #e1eed4;
-}
-
-.green {
-  color: #82C341;
-}
-
-.green-bg {
-  background-color: #82C341;
-}
-
-.dark-green-bg {
-  background-color: #6AA51E;
-  }
 
 .grey {
   background-color: #65737E;
 }
 
 .grey-text {
-  color: #65737E;
+  color: #383633;
 }
 
 .light-grey-text {
@@ -364,7 +356,7 @@ a:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  transition: all .2s linear;
+  transition: all .4s linear;
   background-color: #82C341;
   color: #fff;
 }
@@ -378,18 +370,19 @@ a:hover {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #F7EEE0;
   position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  transition: all .2s linear;
 }
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: 000;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -398,7 +391,7 @@ a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: #F7EEE0;
   display: block;
   position: absolute;
   right: 0;
@@ -406,15 +399,20 @@ a:hover {
 }
 
 /* Add a grey background color on mouse-over */
+.hamburg a {
+  color: #000;
+}
+
 .hamburg a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #78746D;
+  color: #fff;
+  transition: all .2s linear;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #000;
-  color: white;
+  background-color: #F7EEE0;
+  color: #000;
 }
 
 {
@@ -450,14 +448,14 @@ a:hover {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #fff;
+  color: #78746D;
   display: block;
     transition: all .2s linear;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #000;
+  color: #383633;
     transition: all .2s linear;
 }
 
