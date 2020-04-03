@@ -115,7 +115,7 @@ li a:active {
 /* colours */
 
 .cream {
-  background: #F7EEE0;
+  background: #F8F3EC;
 }
 
 .cream-text {
@@ -357,7 +357,7 @@ a:hover {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   transition: all .4s linear;
-  background-color: #82C341;
+  background-color: #efeae3;
   color: #fff;
 }
 
@@ -365,12 +365,12 @@ a:hover {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #efeae3;}
 
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #F7EEE0;
+  background-color: #F8F3EC;
   position: relative;
 }
 
@@ -391,7 +391,7 @@ a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #F7EEE0;
+  background: #F8F3EC;
   display: block;
   position: absolute;
   right: 0;
@@ -404,14 +404,14 @@ a:hover {
 }
 
 .hamburg a:hover {
-  background-color: #78746D;
-  color: #fff;
+  background-color: #efeae3;
+  color: #000;
   transition: all .2s linear;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #F7EEE0;
+  background-color: #F8F3EC;
   color: #000;
 }
 
