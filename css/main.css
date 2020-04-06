@@ -74,15 +74,14 @@ li {
 .btn-box {
   text-decoration: none;
   color: #000;
-  border: 3px solid #000;
+  border-bottom: 3px solid #000;
   padding: 8px;
 }
 
 .btn-box:hover {
   color: #f2a603;
-  border: 3px solid #000;
+  border-bottom: 3px solid #f2a603;
   padding: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
