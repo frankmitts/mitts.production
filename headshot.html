@@ -9,12 +9,10 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-    <link href="css/photography.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
-
-  <link rel="shortcut icon" href="faviconit/favicon.ico">
+  <link href="css/photography.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="faviconit/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
   <link rel="icon" type="image/png" sizes="160x160" href="faviconit/favicon-160.png">
@@ -34,38 +32,42 @@
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
   <meta name="msapplication-config" content="faviconit/browserconfig.xml">
-
 </head>
 <body id="headshot" class="cream">
 
   <div class="smallheader topnav">
     <a href="index.html" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo.svg"></a>
+    <!-- Navigation links (hidden by default) -->
     <div class="hamburg" id="myLinks">
-      <a href="index.html#work">WORK</a>
-      <a href="contact.html">CONTACT/ABOUT</a>
+      <a href="portrait.html">COLLECTION</a>
+      <a href="headshot.html">HEADSHOTS</a>
+      <a href="lifestyle.html">LIFESTYLE</a>
+      <a href="videography.html">CINEMATOGRAPHY</a>
+      <a href="contact.html">CONTACT</a>
+
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <div class="hamburg">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
-    </a>
+      </a>
+    </div>
   </div>
-  </div>
 
-  <header class="bigheader pad-t pad-b">
-
-
-      <div class="top bigheader text-center">
-        <div class="dropdown gutter">
-          <a class="gutter grey-text milli btn-hero island-1-2" href="index.html#work">WORK</a>
-        </div>
-        <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
-        <a class="gutter milli grey-text btn-hero island-1-2" href="contact.html">CONTACT</a>
+  <header>
+    <div class="container">
+      <div class="gutter top-left bigheader text-left">
+        <a href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo.svg"></a>
+        <a class="dark micro btn-hero island-1-2" href="portrait.html">COLLECTION</a>
+        <a class="dark micro btn-hero island-1-2" href="headshot.html">HEADSHOTS</a>
+        <a class="dark micro btn-hero island-1-2" href="lifestyle.html">LIFESTYLE</a>
+          <a class="dark micro btn-hero island-1-2" href="videography.html">CINEMATOGRAPHY</a>
+        <a class="dark micro btn-hero island-1-2" href="contact.html">CONTACT</a>
       </div>
-  </header>
+  <header>
 
-  <main class="large-gutter">
-    <section tabindex="0" class="grid  description" role="banner">
+  <main class="dark large-gutter">
+    <section tabindex="0" class="grid  pad-t-2 description" role="banner">
       <div class="gutter-2 text-left unit xs-1 s-1 m-1 l-1 pad-b-1-2">
         <h3  itemprop="name" class="yotta bold push-0 pad-t-2 text-left">HEADSHOTS</h3>
         <p class="text-left grey-text milli push">Your headshot should communicate the right message to your audience. Headshots are an indispensable tool in today's personal branding.</p>
@@ -73,8 +75,6 @@
       </div>
       <div class="container gallery">
         <div class="grid">
-
-          </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-4 img-container-right">
             <img tabindex="0" class="img-left gallery-img embed img img-flex push-0" src="images/photography/headshots/shot-1.jpg" alt=""/>
           </div>
@@ -106,11 +106,12 @@
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-4 img-container-right">
             <img tabindex="0" class="img-right gallery-img embed img img-flex push-0" src="images/photography/headshots/shot-10.jpg" alt=""/>
           </div>
-
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <footer class=" dark pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="cream pad-b-1-2 grid grid-middle">
       <div class="cream unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t pad-b-1-2">
         <a class="btn-box" href="contact.html#sendemail">CONTACT</a>

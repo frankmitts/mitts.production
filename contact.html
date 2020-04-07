@@ -12,8 +12,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/photography.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="faviconit/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
@@ -37,7 +36,46 @@
 
 </head>
 <body class="cream">
+  <div class="smallheader topnav">
+    <a href="index.html" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo.svg"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div class="hamburg" id="myLinks">
+      <a href="portrait.html">COLLECTION</a>
+      <a href="headshot.html">HEADSHOTS</a>
+      <a href="lifestyle.html">LIFESTYLE</a>
+      <a href="contact.html">CONTACT</a>
 
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <div class="hamburg">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <img class="img-flex hero-image" src="images/photography/throwback/contact.jpg" alt="Avatar">
+
+      <div class="gutter top-left bigheader text-left">
+        <a href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo-white.svg"></a>
+        <a class="micro btn-hero island-1-2" href="portrait.html">COLLECTION</a>
+        <a class="micro btn-hero island-1-2" href="headshot.html">HEADSHOTS</a>
+        <a class="micro btn-hero island-1-2" href="lifestyle.html">LIFESTYLE</a>
+        <a class="micro btn-hero island-1-2" href="contact.html">CONTACT</a>
+      </div>
+
+        <div class="centered white">
+          <h1 class="push-0">UNEARTH YOUR VISION</h1>
+          <a class="btn-hero" href="contact.html#sendemail"> <p class="text-center pad-t-1-2 milli">LET'S START A CONVERSATION…</p></a>
+        </div>
+
+      <div class="bottom-centered">
+        <a  href="#work"><i class=" push arrow down"></i></a>
+      </div>
+    </div>
+  <header>
   <div class="smallheader topnav">
     <a href="index.html" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/fm-logo.svg"></a>
     <!-- Navigation links (hidden by default) -->
@@ -47,35 +85,11 @@
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <div class="hamburg">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  </div>
-
-
-  <section class="pad-b-2" id="contact-area">
-
-    <div class="container">
-      <img class="img-flex" src="images/photography/throwback/contact.jpg" alt="Avatar">
-
-      <div class="top bigheader text-center">
-        <div class="dropdown gutter">
-          <a class="gutter milli btn-hero island-1-2" href="index.html#work">WORK</a>
-        </div>
-        <a class="ib gutter-2" href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/fm-logo-white.svg"></a>
-        <a class="gutter milli btn-hero island-1-2" href="contact.html">CONTACT</a>
-      </div>
-      <div class="centered white">
-        <h1 class=" bold push-0">WHAT'S YOUR VISION?</h1>
-        <a class="btn-hero" href="contact.html#sendemail"> <p class="text-center pad-t-1-2 milli">LET'S START A CONVERSATION…</p></a>
-      </div>
-      <div class="bottom-centered">
-        <a  href="#about"<p><i class="btn-hero arrow down"></i></p></a>
-      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </div>
+  </div>
 
-    <section tabindex="0" id="about" class="about">
+    <section tabindex="0" id="about" class="dark about">
       <div class="grid grid-middle wrapper">
         <div class="unit xs-1 s-1 m-1-2 l-1-3">
           <img itemprop="image" aria-details="#self-portrait" class="portrait-img" src="images/homepage/self-portrait.jpg" alt="self portrait">
@@ -88,33 +102,32 @@
     </section>
   </section>
 
-			<form id="sendemail" class=" text-left pad-t-2 pad-b-2 wrapper validate-form" action="https://formspree.io/francoismittins@gmail.com" method="POST">
-        <h2 class="gutter bold peta">TELL ME ABOUT YOUR PROJECT.<br>I'M EXCITED TO HEAR FROM YOU!</h2>
+  <form id="sendemail" class="dark text-left pad-t-2 pad-b-2 wrapper validate-form" action="https://formspree.io/francoismittins@gmail.com" method="POST">
+    <h2 class="dark gutter bold peta">TELL ME ABOUT YOUR PROJECT.<br>I'M EXCITED TO HEAR FROM YOU!</h2>
 
+    <div class="gutter grid pad-t">
+      <input class="unit s-1" type="text" name="Name" id="Name" placeholder="Full Name*">
+    </div>
 
-				<div class="gutter grid pad-t">
-					<input class="unit s-1" type="text" name="Name" id="Name" placeholder="Full Name*">
-				</div>
+    <div class="gutter grid pad-t">
+      <input class="unit s-1" type="email" name="_replyto" id="Email" placeholder="Email*">
+    </div>
 
-				<div class="gutter grid pad-t">
-					<input class="unit s-1" type="email" name="_replyto" id="Email" placeholder="Email*">
-				</div>
+    <div class="gutter grid pad-t pad-b">
+      <input class="unit s-1" name="subject" id="subject" placeholder="Subject*"></input>
+    </div>
 
-        <div class="gutter grid pad-t pad-b">
-					<input class="unit s-1" name="subject" id="subject" placeholder="Subject*"></input>
-				</div>
-
-				<div class="gutter grid pad-t pad-b">
-					<textarea class="unit s-1" name="Message" id="Message" placeholder="Message...*"></textarea>
-				</div>
+    <div class="gutter grid pad-t pad-b">
+      <textarea class="unit s-1" name="Message" id="Message" placeholder="Message...*"></textarea>
+    </div>
         <div class="grid gutter-2">
           <div class="unit xs-1 gutter-2"><input class="btn submit-button" type="submit" name="submit" value="Send Your Message"/></div>
         </div>
-			</form>
+      </form>
       <div style="clear: both;"></div>
-	</section>
+  </form>
 
-  <footer class="pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <footer class="dark pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="cream pad-b-1-2 grid grid-middle">
       <div class="cream unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t pad-b-1-2">
         <a class="btn-box" href="contact.html#sendemail">CONTACT</a>

@@ -1,6 +1,5 @@
 .img-card {
   position: relative;
-
 }
 
 .image {
@@ -36,7 +35,6 @@
 }
 
 .image:hover {
-
   opacity: 0.75;
   transition: .5s ease;
 }
@@ -60,11 +58,6 @@
   padding-top: .25%;
   padding-bottom: .25%;
 }
-
-
-
-
-
 
 /* Bottom left text */
 .bottom-left {

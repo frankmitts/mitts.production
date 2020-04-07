@@ -1,11 +1,20 @@
 html {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  font-kerning: auto;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .clara {
-  font-family: 'Libre Baskerville', serif;
 }
 
 .contact-sections {
@@ -49,6 +58,7 @@ li {
   text-decoration: none;
 }
 
+/* buttons */
 .nav-btn {
 
   color: #65737E;
@@ -96,14 +106,12 @@ li {
 
 
 .btn-solid {
-  background-color: #000;
-  color: #fff;
+  color: #000;
   transition: all .2s linear;
 }
 
 .btn-solid:hover {
-  background-color: #65737E;
-  color: #fff;
+  color: #F2A603;
 }
 
 .cards:hover {
@@ -155,29 +163,14 @@ li a:active {
 
 .dark-bg {
   background-color: #383633;
-
 }
 
-
-.mid-grey {
-  color: #78746d;
-}
-
-
-.grey {
-  background-color: #65737E;
-}
-
-.grey-text {
+.dark {
   color: #383633;
 }
 
-.light-grey-text {
-  color: #ececec;
-}
-
-.light-grey-bg {
-  background-color: #ececec;
+.mid-grey {
+  color: #78746d;
 }
 
 a:active {
@@ -254,18 +247,6 @@ input {
 .shadow-box {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 
-}
-
-
-.gallery {
-  visibility: hidden;
-  display: none;
-
-}
-
-.gallery-img {
-  visibility: hidden;
-  display: none;
 }
 
 .img {
@@ -362,8 +343,8 @@ a:hover {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  background-color: #F8F3EC;
   color: #E2E2E2 solid;
-  background-color:#000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -372,20 +353,14 @@ a:hover {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   transition: all .4s linear;
-  background-color: #efeae3;
   color: #fff;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #efeae3;}
 
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #F8F3EC;
   position: relative;
 }
 
@@ -406,7 +381,6 @@ a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #F8F3EC;
   display: block;
   position: absolute;
   right: 0;
@@ -414,25 +388,21 @@ a:hover {
 }
 
 /* Add a grey background color on mouse-over */
+
 .hamburg a {
   color: #000;
 }
 
 .hamburg a:hover {
-  background-color: #efeae3;
-  color: #000;
+  color: #f2a603;
   transition: all .2s linear;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #F8F3EC;
   color: #000;
 }
 
-{
-  box-sizing: border-box;
-}
 
 .arrow {
   border: solid white;
@@ -455,7 +425,7 @@ a:hover {
   top: 0; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px;
+  padding-top: 6.5em;
 }
 
 /* The navigation menu links */
@@ -495,7 +465,6 @@ a:hover {
   float: left;
   width: 25%;
 }
-
 
 
 @media only screen and (min-width: 25em) {
@@ -659,8 +628,6 @@ hr {
   padding-left: 3em;
 }
 
-
-` `
 }
 @media only screen and (min-width: 64em) {
 
