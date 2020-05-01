@@ -14,9 +14,6 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-.clara {
-}
-
 .contact-sections {
   padding: 20rem;
 }
@@ -136,7 +133,9 @@ li a:active {
 }
 
 /* colours */
-
+.green-bg {
+  background-color: #ced1a4;
+}
 .cream {
   background: #F8F3EC;
 }
@@ -382,6 +381,10 @@ a:hover {
   display: block;
 }
 
+a:hover, a:active {
+  outline: none;
+}
+
 /* Style the hamburger menu */
 .topnav a.icon {
   display: block;
@@ -469,6 +472,146 @@ a:hover {
   width: 25%;
 }
 
+/*card text right*/
+.card-img-l {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-text-r {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-decoration: none;
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-text-r p {
+margin-right: 50px;
+text-align: left;
+color: #000;
+}
+
+.card-text-r h2 {
+margin-left: -30px;
+}
+
+.card-text-r a {
+  display: inline-block;
+  text-decoration: none;
+  color:#000;
+}
+
+
+
+/*card text left*/
+.card-img-r {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-text-l {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-decoration: none;
+  position: absolute;
+  top: 110%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.card-text-l p {
+margin-left: 50px;
+text-align: left;
+color: #000;
+}
+
+.card-text-l h2 {
+margin-left: 30px;
+}
+
+.card-text-l a {
+  margin-left: 50px;
+  display: inline-block;
+  text-decoration: none;
+  color:#000;
+}
+
+
+/* btn*/
+
+.btn-m {
+  display: inline-block;
+  border-radius: 0;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 200px;
+}
+
+.btn-m span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-m span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.btn-m span a{
+  background-color: blue;
+}
+
+.btn-m:hover span {
+  padding-right: 25px;
+}
+
+.btn-m:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-right {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: solid 1px #000;
+  border-radius: 0;
+
+}
+
+.btn-left {
+  text-decoration: none;
+  padding: 10px 30px;
+  border: solid 1px #000;
+  border-radius: 0;
+
+}
+
+.btn:hover {
+background-color: #000;
+color: #fff;
+
+}
+
+.bigheader {
+  display: none;
+}
+.arrow {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -557,6 +700,82 @@ a:hover {
   top: 0;
   width: 100%;
 }
+@media only screen and (min-width: 38em){
+  /*card text right*/
+  .card-img-l {
+    position: relative;
+  }
+
+  .card-text-r {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-text-r p {
+  margin-left: 30px;
+  }
+
+  .card-text-r h2 {
+  margin-left: -30px;
+  }
+
+  .card-text-r a {
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+    margin-left: 32px;
+  }
+
+  .card-text-r a:hover {
+  transition: all .3s linear;
+
+  }
+
+  /*card text left*/
+  .card-img-r {
+    position: relative;
+  }
+
+  .card-text-l {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    top: 50%;
+    left: 25%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-text-l p {
+  margin-right: 30px;
+  margin-left: 0;
+  }
+
+  .card-text-l h2 {
+  }
+
+  .card-text-l a {
+    margin-left: 0;
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+  }
+
+  .card-text-l a:hover {
+
+  transition: all .3s linear;
+  }
+
+  .ban-img {
+  display: block;
+  width: 60%;
+  margin-left: 21%;
+  }
+  }
 
 @media only screen and (min-width: 40em) {
 
