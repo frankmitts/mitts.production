@@ -615,6 +615,10 @@ color: #fff;
   display: none;
 }
 
+.empty {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
 
@@ -882,6 +886,12 @@ hr {
 }
 
 }
+
+@media only screen and (min-width: 60em) {
+  .empty {
+    display: block;
+  }
+
 @media only screen and (min-width: 64em) {
 
   /*card text right*/
