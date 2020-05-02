@@ -480,27 +480,23 @@ a:hover, a:active {
 /*card text right*/
 .card-img-l {
   position: relative;
-  margin-bottom: 4rem;
 }
 
 .card-text-r {
-  margin-left: 50px;
-  margin-right: 50px;
   text-decoration: none;
-  position: absolute;
-  top: 102%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: block;
+  padding-left: 30px;
+  top: 95%;
+  left: 10%;
+
 }
 
 .card-text-r p {
-margin-right: 50px;
 text-align: left;
 color: #000;
 }
 
 .card-text-r h2 {
-margin-left: -30px;
 }
 
 .card-text-r a {
@@ -514,16 +510,15 @@ margin-left: -30px;
 /*card text left*/
 .card-img-r {
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .card-text-l {
-  margin-left: 50px;
-  margin-right: 50px;
+
   text-decoration: none;
   position: absolute;
-  top: 115%;
-  left: 40%;
+  top: 123%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
@@ -558,6 +553,7 @@ margin-left: 30px;
   cursor: pointer;
   margin: 5px;
   width: 200px;
+
 }
 
 .btn-m span {
@@ -620,6 +616,32 @@ color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
+
+
+  /*card text left*/
+  .card-text-l {
+
+    text-decoration: none;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*card text right*/
+  .card-img-l {
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  .card-text-r {
+    text-decoration: none;
+    position: absolute;
+    padding-left: 30px;
+    top: 85%;
+    left: 0%;
+
+  }
 
   .sidenav {
     display: none;
@@ -743,6 +765,7 @@ color: #fff;
   /*card text left*/
   .card-img-r {
     position: relative;
+    margin-bottom: 2em;
   }
 
   .card-text-l {
@@ -767,7 +790,7 @@ color: #fff;
   }
 
   .card-text-l a {
-    margin-left: 0;
+    margin-left: -20px;
     display: inline-block;
     text-decoration: none;
     color:#000;
@@ -860,6 +883,78 @@ hr {
 
 }
 @media only screen and (min-width: 64em) {
+
+  /*card text right*/
+  .card-img-l {
+    position: relative;
+  }
+
+  .card-text-r {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-text-r p {
+  margin-left: 0px;
+  }
+
+  .card-text-r h2 {
+  margin-left: -30px;
+  }
+
+  .card-text-r a {
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+    margin-left: 32px;
+  }
+
+  .card-text-r a:hover {
+  transition: all .3s linear;
+
+  }
+
+  /*card text left*/
+  .card-img-r {
+    position: relative;
+    margin-bottom:2em;
+  }
+
+  .card-text-l {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    top: 50%;
+    left: 25%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-text-l p {
+  margin-right: 30px;
+  margin-left: -20px;
+  padding-right: 0px;
+
+  }
+
+  .card-text-l h2 {
+  }
+
+  .card-text-l a {
+    margin-left: -20px;
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+  }
+
+  .card-text-l a:hover {
+
+  transition: all .3s linear;
+  }
 
   .sidenav {
     display: block;
