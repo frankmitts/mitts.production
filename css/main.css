@@ -16,6 +16,11 @@ p {
     color: #78746d;
 }
 
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+
+}
 .contact-sections {
   padding: 20rem;
 }
@@ -28,12 +33,6 @@ h2, main {
   margin: 0 auto;
 }
 
-.header li {
-    list-style-type: none;
-    text-decoration: none;
-    margin-left:-15px;
-  }
-}
 
 /* navigation */
 
@@ -77,7 +76,7 @@ h2, main {
 
 .btn-hero {
   color: #fff;
-  font-weight: 900;
+  padding: 0 40px;
 
 }
 
@@ -189,48 +188,22 @@ input {
 
 /* hero-banner */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
-/* Position */
-
-  background-position:center;
-  background-repeat: no-repeat;
+  width: 100%;
 }
-
 /* text location banners */
-
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
+  text-align: center;
   transform: translate(-50%, -50%);
   color: white;
-}
-
-/*gallery control*/
-
-.mySlides {
-  display: block;
-  visibility: visible;
-}
-
-.slide-show {
-  visibility: visible;
-}
-
-.slide-show-2 {
-  display: block;
-}
-
-.shadow-box {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .img {
@@ -242,14 +215,6 @@ input {
 .intro-text {
   padding-left: 1em;
   padding-right: 1em;
-}
-
-/*next previous*/
-
-np-btn {
-    text-decoration: none;
-    display: inline-block;
-    padding: 16px 16px;
 }
 
 a {
@@ -594,9 +559,9 @@ color: #fff;
 .empty {
   display: none;
 }
-.hero-text h1 {
-  font-size: 200%;
-  text-align: left;
+.hero-text {
+  line-height: normal;
+
 }
 @media only screen and (min-width: 25em) {
 
@@ -712,6 +677,13 @@ color: #fff;
   width: 100%;
 }
 @media only screen and (min-width: 38em){
+
+  .hero-text {
+    font-size: 200%;
+    line-height: normal;
+
+  }
+
   /*card text right*/
   .card-img-l {
     position: relative;
@@ -792,9 +764,10 @@ color: #fff;
 
 @media only screen and (min-width: 40em) {
 
-  .hero-text h1 {
-    font-size: 260%;
-    text-align: left;
+  .hero-text {
+    font-size: 240%;
+    line-height: normal;
+
   }
 
   .card-text-l h2 {
@@ -887,10 +860,14 @@ hr {
     display: block;
   }
 
+
 @media only screen and (min-width: 64em) {
-  .hero-text h1 {
-    font-size:220%;
-    text-align: left;
+
+
+  .hero-text {
+    font-size:280%;
+    line-height: normal;
+
   }
 
   /*card text right*/
@@ -998,6 +975,18 @@ hr {
 
 @media only screen and (min-width: 98em) {
 
+  .hero-text {
+    font-size:280%;
+    line-height: normal;
+    text-align: center;
+
+  }
+
+  .btn-hero {
+    color: #fff;
+    padding: 0 90px;
+
+  }
   .video {
     width: 1720px;
     height: 880px;

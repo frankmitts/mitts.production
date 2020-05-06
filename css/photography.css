@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.container {
+    position: relative;
+  }
+
 .image {
   opacity: 1;
   transition: .5s ease;
@@ -28,11 +32,7 @@
 }
 
 /* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+
 
 .image:hover {
   opacity: 0.75;
@@ -69,8 +69,16 @@
 /* Top left text */
 .top-left {
   position: absolute;
-  top: 1%;
-  left: 12%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* logo top left */
+.logo {
+  position: absolute;
+  top: 1px;
+  left: 3%;
 }
 
 /* Top right text */
@@ -111,7 +119,7 @@
 
 .bottom-centered {
   position: absolute;
-  bottom: 8px;
+  bottom: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -135,5 +143,32 @@
     padding-right: 2%;
     padding-top: .25%;
     padding-bottom: .25%;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .top-left {
+    display: inline-block;
+  }
+
+  /* logo top left */
+  .logo {
+    display: block;
+  }
+  .bottom-centered {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .bottom-centered {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
