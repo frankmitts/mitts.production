@@ -12,6 +12,11 @@
   backface-visibility: hidden;
 }
 
+.img-portrait {
+  padding: 0em 6em;
+  margin-bottom: 2em;
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -32,8 +37,6 @@
 }
 
 /* Container holding the image and the text */
-
-
 .image:hover {
   opacity: 0.75;
   transition: .5s ease;
@@ -144,6 +147,10 @@
     padding-top: .25%;
     padding-bottom: .25%;
   }
+  .img-portrait {
+    padding: 0em 0em;
+    margin-bottom: 2em;
+  }
 
 }
 
@@ -156,6 +163,7 @@
   .logo {
     display: block;
   }
+
   .bottom-centered {
     position: absolute;
     bottom: 5%;
