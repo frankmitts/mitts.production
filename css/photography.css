@@ -1,3 +1,5 @@
+
+
 .img-card {
   position: relative;
 }
@@ -13,6 +15,8 @@
 }
 
 .img-portrait {
+  display:inline-block;
+
   padding: 0em 6em;
   margin-bottom: 2em;
 }
@@ -71,16 +75,17 @@
 
 /* Top left text */
 .top-left {
-  position: absolute;
-  top: 6%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+  position:absolute;
+  top: 2%;
+  left: 0%;
 }
 
+
 /* logo top left */
-.logo {
+.logo2 {
   position: absolute;
-  top: 1%;
+  top: 0%;
   left: 3%;
 }
 
@@ -127,6 +132,9 @@
   transform: translate(-50%, -50%);
 }
 
+
+
+
 @media only screen and (min-width: 40em) {
   .img-left {
     padding-left: 4% ;
@@ -159,16 +167,181 @@
     display: inline-block;
   }
 
-  /* logo top left */
-  .logo {
-    display: block;
-  }
-
   .bottom-centered {
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  html {
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    color: #fff;
+    height: 100%;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .parallax-wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+
+
+  }
+
+  .parallax-wrapper::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/hero-banner/home-banner-1.jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper2 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper2::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/hero-banner/shot-04.jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper3 {
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper3::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/hero-banner/home-banner-4.jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper4 {
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper4::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/setup-01.jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper5 {
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper5::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/stage-02/shot-09.jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper6 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper6::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/clara/img (9).jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .regular-wrapper {
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+
+  }
+
+  .content {
+    margin: 0;
+    padding: 0 20px;
+    width: auto;
+    background: none;
   }
 }
 
