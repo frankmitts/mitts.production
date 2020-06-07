@@ -124,6 +124,26 @@ li a:active {
 
 /* colours */
 
+.nude {
+  color:#Faf6ea;
+}
+
+.nude-bg {
+  background-color:#Faf6ea;
+}
+
+.gold {
+  color: #BDAB64;
+}
+
+
+.darkgreen {
+  color:#042616;
+}
+.darkgreen-bg {
+  background-color:#042616;
+}
+
 .yellow {
   color: #f2a603;
 }
@@ -136,6 +156,14 @@ li a:active {
   background-color: #fff;
 }
 
+.sand {
+  color: #eeeae0;
+}
+
+.sand-bg {
+  background-color: #eeeae0;
+}
+
 .dark-bg {
   background-color: #383633;
 }
@@ -144,8 +172,12 @@ li a:active {
   color: #383633;
 }
 
+.dark-trans {
+background: rgba(25, 25, 25, 0.3);
+}
+
 .mid-grey {
-  color: #78746d;
+  color: #949485;
 }
 
 a:active {
@@ -378,8 +410,8 @@ text-align: left;
 .btn-m {
   display: inline-block;
   border-radius: 0;
-  border: 1px solid #383633;
-  color: #383633;
+  border: 1px solid #949485;
+  color: #949485;
   padding: 10px 30px;
   transition: all 0.5s;
   cursor: pointer;
@@ -387,7 +419,7 @@ text-align: left;
 }
 
 .btn-m span {
-  color: #383633;
+  color: #949485;
 
   cursor: pointer;
   display: inline-block;

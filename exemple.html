@@ -1,8 +1,4 @@
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -15,6 +11,8 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/photography.css" rel="stylesheet">
+  <link href="css/customscroll.css" rel="stylesheet">
+  <link href="script.js" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,195 +35,123 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-  <ul class="skip-links">
-    <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#nav">Jump to navigation</a></li>
-    <li><a href="#logo">Jump to home page</a></li>
-  </ul>
 
-<body>
 
-  <div class="smallheader topnav">
-    <a href="index.html" class="active"><img itemprop="logo" tabindex="0" class="icon i-48" src="images/mitts-logo-bk.svg"></a>
-    <!-- Navigation links (hidden by default) -->
-    <div class="hamburg" id="myLinks">
-      <a class="micro" href="lifestyle.html">PORTRAITS</a>
-      <a class="micro" href="headshot.html">HEADSHOTS</a>
-      <a class="micro" href="collection.html">STAGE</a>
-      <a class="micro" href="contact.html">CONTACT</a>
-
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <div class="hamburg">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </div>
-
-  <header>
-    <div class="container text-center ">
-      <img class="hero-image" src="images/photography/hero-banner/home-banner-1.jpg" alt="Avatar">
-
-      <div class="grid grid-middle">
-        <ul class="  push-0 unit s-1 text-center top-left bigheader">
-          <a class="white btn-hero2 kilo" href="lifestyle.html">PORTRAITS</a>
-          <a class="white btn-hero2 kilo" href="headshot.html">HEADSHOTS</a>
-          <a class="white btn-hero2 kilo" href="collection.html">STAGE</a>
-          <a class="white btn-hero2 kilo" href="contact.html">CONTACT</a>
-        </ul>
-        <div class="logo bigheader">
-          <a href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/mitts-logo-wt.svg"></a>
-          </div>
-          <div class="hero-text">
-            <h1 class="unit s-1 text-center  white push-0">THE LUXURY TO DESIGN YOUR LIFE</h1>
-          </div>
-          <div class="bottom-centered">
-            <i class="arrow down"></i>
-          </div>
+<main>
+    <h1>Custom scroll</h1>
+    <div class="scroll-wrapper">
+        <div class="scroll-filler"></div>
+        <div class="scroll">
+            <div class="scroll-inner">
+                <a href="#" class="scroll-item">
+                    <h2>I made a slider</h2>
+                    <span class="scroll-item-date">5 Jun 2020</span>
+                </a>
+                <a href="#" class="scroll-item red">
+                    <h2>I don't know how to make a slider</h2>
+                    <span class="scroll-item-date">4 Jun 2020</span>
+                </a>
+                <a href="#" class="scroll-item">
+                    <h2>I want to make a slider</h2>
+                    <span class="scroll-item-date">3 Jun 2020</span>
+                </a>
+                <a href="#" class="scroll-item bees">
+                    <h2>bees</h2>
+                    <span class="scroll-item-date">bees</span>
+                </a>
+                <a href="#" class="scroll-item red">
+                    <h2>---------</h2>
+                    <span class="scroll-item-date">---------</span>
+                </a>
+                <a href="#" class="scroll-item">
+                    <h2>ь</h2>
+                    <span class="scroll-item-date">ъ</span>
+                </a>
+                <a href="#" class="scroll-item blue"></a>
+                <div class="scroll-item ghost">
+                    <h2>No more items</h2>
+                    <span class="scroll-item-date">For real</span>
+                </div>
+            </div>
         </div>
-      </div>
-  </header>
-
-  <main>
-
-    <div class="pad-t-2 wrapper grid grid-middle">
-      <h2 class="zetta unit xs-1 text-center gutter pad-t-2">A Photo Experience Tailored Just For You</h2>
-      <div class="text-center unit xs-1 s-1 m-1-3">
-        <a href="index.html"><img itemprop="logo" tabindex="1" class="icon i-64" src="images/laptop.svg"></a>
-        <p class="text-center dark">Pre-Shoot Consultation</p>
-      </div>
-      <div class="text-center unit xs-1 s-1 m-1-3">
-        <a href="index.html"><img itemprop="logo" tabindex="1" class="icon i-64" src="images/location.svg"></a>
-        <p class="text-center dark">In-Studio + On Location</p>
-      </div>
-      <div class="text-center unit xs-1 s-1 m-1-3">
-        <a href="index.html"><img itemprop="logo" tabindex="1" class="icon i-64" src="images/monitor.svg"></a>
-        <p class="text-center dark">Full Image Retouching</p>
-      </div>
     </div>
-
-    <div class="pad-t-2 pad-b-2">
-      <section class="card-img-l pad-t-2 grid grid-middle">
-        <img tabindex="0" class="unit xs-1 s-1 m-2-3 l-2-3 img-flex push-0" src="images/img-2.jpg" alt=""/>
-        <div class="text-left card-text-r unit xs-1 s-1 m-1-3">
-          <h2 class="text-left yotta push-1-2">EXPECTATIONS</h2>
-          <p class="mid-grey text-left micro container">When working with us, you can expect great care into the process of preparing, shooting and executing the final product. Our goal is to give you the best photography experience that you could ask for.</p>
-          <a href="contact.html" class="text-left btn-m"><span>Learn More </span></a>
+    <div class="scroll-position-wrapper">
+        <button class="scroll-btn prev" onclick="prevBtn()" disabled></button>
+        <div class="scroll-position">
+            <div class="scroll-position-inner"></div>
         </div>
-      </section>
+        <button class="scroll-btn next" onclick="nextBtn()"></button>
     </div>
 
-<div class="scrollable gutter-1-2 pad-t-2 grid grid-middle">
-  <div class=" unit s-1 text-center">
-    <h3 class="text-center  micro pad-t-2 push-1-2"> <a class="gutter-1-2 btn-solid" href="lifestyle.html">PORTRAIT</a> <a class="gutter-1-2 btn-solid" href="headshot.html">HEADSHOT</a> <a class="gutter-1-2 btn-solid" href="collection.html">STAGE COLLECTION</h3></a>
-  </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="headshot.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/headshots/shot-6.jpg" alt=""/></a>
+    <div class="info">
+        <p>This is a slider. Try scrolling!</p>
+        <p><a target="_blank" href="https://tympanus.net/codrops/2019/07/10/how-to-add-smooth-scrolling-with-inner-image-animations-to-a-web-page/">Inspired by this demo.</a></p>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="collection.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/clara/img (26).jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-08.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/stage-02/shot-07.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-09.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-2">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-10.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/sarah (2).jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="collection.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/clara/img (12).jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-02.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-2">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-13.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-04.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-      <a href="lifestyle.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/lifestyle/image-06.jpg" alt=""/></a>
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-      <a href="collection.html"><img tabindex="0" class="island-1-8 embed img img-flex push-0" src="images/photography/andrew (2).jpg" alt=""/></a>
-    </div>
-  </div>
+
+    <footer>
+        <a href="https://codepen.io/theseventh" target="_blank">Codepen</a>
+        <a href="https://twitter.com/the_seventh_kek" target="_blank">Twitter</a>
+        <a href="https://t.me/the_seventh" target="_blank">Telegram</a>
+    </footer>
 </main>
 
-<div class="wrapper gutter pad-b unit s-1 text-center">
-  <h2 class="text-center yotta pad-t-2 push-1-2">Invest In Yourself</h2>
-   <p class="text-center">Whether personally or professionally, It's more than just a photo. High-quality photography helps to display who <b>YOU</b> are and allows people to get to know you. <br>At <i>MITTS.</i> We help you express yourself by crafting beautiful authentic images with purpose.</p>
-   <a href="contact.html#sendemail" class="micro text-center btn-m"><span>Book Your Session Today </span></a>
-</div>
-
-<footer class="smallheader dark pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-  <div class="pad-b-1-2 grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t pad-b-1-2">
-      <a href="contact.html#sendemail" class="btn-m"><span>Contact </span></a>
-    </div>
-    <div class=" unit xs-1 s-1 m-1-2 l-1-2 text-center pad-t">
-      <a aria-label="facebook" class="island-1-2" href="https://www.facebook.com/FrancoisMittinsPhotography/"><img tabindex="0" class="socials icon i-48" src="images/icon-facebook.svg" alt="facebook link"></a>
-      <a aria-label="instagram" class="island-1-2" href="https://www.instagram.com/francoismittins/"><img tabindex="0" class="socials icon i-48" src="images/icon-instagram.svg" alt="instagram link"></a>
-      <a aria-label="vimeo" class="island-1-2" href="https://vimeo.com/user94839038"><img tabindex="0" class="socials icon i-48" src="images/icon-vimeo.svg" alt="vimeo link"></a>
-    </div>
-  </div>
-    <div class=" unit xs-1 s-1 m-1 l-1 text-center  pad-t-1-2 pad-b-1-2">
-      <span class="nano">© <span itemprop="name"> Mitts 2020</span></span>
-    </div>
-</footer>
-<footer class="bigheader wrapper dark pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-  <div class="pad-b-1-2 grid grid-middle">
-    <div class="unit s-1 m-1-3 l-1-3 pad-b text-center">
-      <hr class="dark push-0">
-    </div>
-    <div class="unit s-1 m-1-3 l-1-3 pad-b text-center">
-        <a href="index.html"><img itemprop="logo" tabindex="0" class="icon i-64" src="images/mitts-logo-bk.svg"></a>
-    </div>
-    <div class="unit s-1 m-1-3 l-1-3 pad-b text-center">
-      <hr class="dark push-0">
-    </div>
-  </div>
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t pad-b-1-2">
-      <li><a href="collection.html" class="btn-hero dark micro">Stage</a></li>
-      <li><a href="lifestyle.html" class="btn-hero dark micro">Portrait</a></li>
-    </div>
-    <div class=" unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t">
-      <a aria-label="facebook" class="island-1-2" href="https://www.facebook.com/FrancoisMittinsPhotography/"><img tabindex="0" class="socials icon i-48" src="images/icon-facebook.svg" alt="facebook link"></a>
-      <a aria-label="instagram" class="island-1-2" href="https://www.instagram.com/francoismittins/"><img tabindex="0" class="socials icon i-48" src="images/icon-instagram.svg" alt="instagram link"></a>
-      <a aria-label="vimeo" class="island-1-2" href="https://vimeo.com/user94839038"><img tabindex="0" class="socials icon i-48" src="images/icon-vimeo.svg" alt="vimeo link"></a>
-    </div>
-    <div class=" unit xs-1 s-1 m-1-3 l-1-3 text-center pad-t pad-b-1-2">
-      <li><a href="headshot.html" class="btn-hero dark micro">Headshots</a></li>
-      <li><a href="contact.html#sendemail" class="btn-hero dark micro">Contact</a></li>
-    </div>
-  </div>
-
-  <div class=" unit xs-1 s-1 m-1 l-1 text-center  pad-t pad-b-1-2">
-    <span class="nano">©<span itemprop="name"> Mitts 2020</span></span>
-  </div>
-</footer>
-
-  <script>
-
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  </script>
-</body>
 </html>
+<script>
+  const wrapper = document.querySelector('.scroll-wrapper');
+const el = document.querySelector('.scroll');
+const filler = document.querySelector('.scroll-filler');
+const position = document.querySelector('.scroll-position-inner');
+const inner = document.querySelector('.scroll-inner');
+const btns = {prev: document.querySelector('.scroll-btn.prev'), next: document.querySelector('.scroll-btn.next')};
+
+const lerp = (a, b, n) => {
+  return (1 - n) * a + n * b
+}
+
+const padding = 20;
+
+let scrollNow = 0;
+
+filler.style.width = inner.offsetWidth + padding*2 + 'px';
+position.style.width = wrapper.offsetWidth / (inner.offsetWidth + padding*2) * 100 + '%';
+
+const offset = 150;
+const angle = 25;
+const z = 15;
+
+function render() {
+  let now = lerp(scrollNow, wrapper.scrollLeft, .15);
+  gsap.set(el, {x: -now});
+  gsap.set(position, {x: now / wrapper.offsetWidth * 100 + '%'});
+
+  document.querySelectorAll('.scroll-item').forEach(item => {
+    let elPos = item.offsetLeft + item.offsetWidth / 2 - scrollNow;
+
+    if (elPos > wrapper.offsetWidth - offset) {
+      let q = (wrapper.offsetWidth - elPos) / offset;
+      gsap.set(item, {rotateY: -(angle - q * angle), z: z - z * q})
+    } else if (elPos < offset) {
+      let q = elPos / offset;
+      gsap.set(item, {rotateY: angle - q * angle, z: z - z * q})
+    } else {
+      gsap.set(item, {rotateY: 0, z: 0});
+    }
+  });
+
+  scrollNow = now;
+
+  if (wrapper.scrollLeft === 0) btns.prev.disabled = true
+  else if (inner.offsetWidth - wrapper.scrollLeft === wrapper.offsetWidth - padding*2) btns.next.disabled = true
+  else {btns.prev.disabled = false; btns.next.disabled = false;}
+  requestAnimationFrame(render);
+}
+
+render();
+
+function nextBtn() {
+  wrapper.scrollLeft += document.querySelector('.scroll-item').offsetWidth*2 - 20;
+}
+function prevBtn() {
+  wrapper.scrollLeft -= document.querySelector('.scroll-item').offsetWidth*2 - 20;
+}
+</script>

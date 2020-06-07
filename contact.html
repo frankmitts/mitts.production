@@ -11,6 +11,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/photography.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="57x57" href="faviconit/apple-icon-57x57.png">
@@ -32,7 +33,7 @@
   <meta name="theme-color" content="#ffffff">
 
 </head>
-<body class="">
+<body class="nude-bg">
   <div class=" smallheader topnav">
     <div class="grid grid-middle">
     <span class=" unit s-2-4"><a href="index.html"><img itemprop="logo" tabindex="0" class=" icon i-96" src="images/mitts-logo-bk.svg"></a><span>
@@ -85,21 +86,25 @@
 
   <div class="regular-wrapper">
     <div class="content">
-    <section tabindex="0" id="about" class=" dark about">
+    <section tabindex="0" id="about" class="pad-t dark about">
       <div class="pad-t-2 grid grid-middle wrapper">
         <div class="unit xs-1 s-1 m-1-2 l-1-3">
           <img itemprop="image" aria-details="#self-portrait" class="img-portrait img-flex" src="images/homepage/self-portrait.jpg" alt="self portrait">
         </div>
         <div class="about-content pad-b unit xs-1 s-1 m-1-2 l-2-3">
-          <h2 class="gutter text-left push-0">ABOUT</h2>
-          <p itemprop="description" class="grey-text gutter text-left kilo">Francois Mittins is a portrait and commercial photographer based in Ottawa. He is dedicated to uplifting those around him by creating impactful work that is rooted in honesty, vulnerability, and creativity. Francois strives to achieve thoughtful solutions to communicate your message through visual storytelling. He has worked with clients such as Algonquin College, Godzspeed Communication and Redbull Interns.</p>
+          <h2 class="gold gutter text-left push-0">ABOUT</h2>
+          <p itemprop="description" class="gold grey-text gutter text-left kilo">Francois Mittins is a portrait and commercial photographer based in Ottawa. He is dedicated to uplifting those around him by creating impactful work that is rooted in honesty, vulnerability, and creativity. Francois strives to achieve thoughtful solutions to communicate your message through visual storytelling. He has worked with clients such as Algonquin College, Godzspeed Communication and Redbull Interns.</p>
         </div>
       </div>
     </section>
+    <p class="text-center">slider goes here with client logos</p>
+  </div>
+</div>
 
-
-  <form id="sendemail" class="dark text-left pad-t-2 pad-b-2 wrapper validate-form" action="https://formspree.io/info@francoismittins.ca" method="POST">
-    <h2 class="dark gutter bold peta">TELL ME ABOUT YOUR PROJECT.<br>I'M EXCITED TO HEAR FROM YOU!</h2>
+<div class="text-center regular-wrapper-nude">
+  <div class="content">
+  <form id="sendemail" class=" animated tdExpandIn dark text-left pad-t-2 pad-b-2 wrapper validate-form" action="https://formspree.io/info@francoismittins.ca" method="POST">
+    <h2 class="gutter bold peta">TELL ME ABOUT YOUR PROJECT.<br>I'M EXCITED TO HEAR FROM YOU!</h2>
 
     <div class="gutter grid pad-t">
       <input class="unit s-1" type="text" name="Name" id="Name" placeholder="Full Name*">
@@ -122,6 +127,7 @@
       </form>
       <div style="clear: both;"></div>
   </form>
+
 
 
   <footer class="smallheader dark pad-t-2" role="contentinfo" id="date-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
