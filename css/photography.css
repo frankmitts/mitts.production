@@ -433,6 +433,12 @@
 
 @media only screen and (min-width: 80em) {
 
+  .card-title {
+  bottom: 3%;
+  left: 10%;
+    position: absolute;
+  }
+
   .top-left {
     position: absolute;
     top: 5%;
