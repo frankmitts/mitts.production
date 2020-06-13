@@ -520,25 +520,25 @@ text-align: left;
     left: 60%;
     }
     .card-text-r p {
-      font-size: 60%;
+
     }
 
     .card-text-r h2 {
-      font-size: 150%;
+
     }
 
     .card-text-r a {
-      font-size: 60%;
+
     }
 
   .stage-h1 {
     line-height: normal;
-    font-size: 250%;
+
     display: block;
   }
 
   .hero-text {
-    font-size: 200%;
+
     line-height: normal;
   }
 
@@ -549,7 +549,7 @@ text-align: left;
 @media only screen and (min-width: 40em) {
 
   .hero-text h1 {
-    font-size: 120%;
+
     line-height: normal;
   }
 
@@ -626,15 +626,12 @@ hr {
   left: 60%;
   }
   .card-text-r p {
-    font-size: 80%;
   }
 
   .card-text-r h2 {
-    font-size: 170%;
   }
 
   .card-text-r a {
-    font-size: 80%;
   }
 }
 
@@ -643,7 +640,6 @@ hr {
 
   .stage-h1 {
     line-height: normal;
-    font-size: 350%;
     display: block;
   }
 
@@ -661,15 +657,12 @@ hr {
     left: 60%;
     }
     .card-text-r p {
-      font-size: 100%;
     }
 
     .card-text-r h2 {
-      font-size: 250%;
     }
 
     .card-text-r a {
-      font-size: 100%;
     }
 
 @media only screen and (min-width: 64em) {
@@ -685,7 +678,6 @@ hr {
   }
 
   .hero-text h1 {
-    font-size:130%;
     line-height: normal;
   }
 
@@ -729,7 +721,6 @@ hr {
   }
 
   .hero-text h1 {
-    font-size:130%;
     line-height: normal;
     text-align: center;
   }
