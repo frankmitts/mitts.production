@@ -694,6 +694,10 @@ hr {
     display:block;
   }
 
+  .sticky {
+    position:inherit;
+  }
+
   .video {
     width: 1080px;
     height: 720px;
