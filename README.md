@@ -3,6 +3,6 @@
 #### []()
 
 ![](photo.jpg)
-A bilingual photographer & cinematographer with the mind of a strategist. Francois's work is based in Ottawa. He strives to create innovative solutions to build timeless memorable pieces.
+Mitts is a published portrait and commercial photography company based in Ottawa. We are dedicated to uplifting those around us by creating impactful work that is rooted in honesty, vulnerability, and creativity. We strive to achieve thoughtful solutions to communicate your message through visual storytelling. Mitts has worked with clients such as Algonquin College, Godzspeed Communication and Redbull Interns.
 
 ©Francois Mittins

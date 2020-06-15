@@ -2,8 +2,8 @@
 
 # TEAM
 
-Designer & Developer: Francois Mittins <francoismittins@gmail.com>
-Site: http://francoismittins.ca
+Designer & Developer: Francois Mittins <info@francoismittins.ca>
+Site: http://mitts.productions
 GitHub: https://github.com/frankmitts
 Location: Ottawa, Canada
 
