@@ -138,7 +138,7 @@ li a:active {
 
 
 .darkgreen {
-  color:#m;
+  color:#042616;
 }
 .darkgreen-bg {
   background-color:#042616;
@@ -314,10 +314,10 @@ a:hover {
 
 /* Style navigation menu links */
 .topnav a {
-  color: 000;
+  color: #383633;
   padding: 10px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 12px;
   display: block;
 }
 
@@ -330,12 +330,12 @@ a:hover, a:active {
 }
 
 .topnav i {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 i:before {
 font-display: block;
- font-size: 250%;
+ font-size: 200%;
   margin: .5em;
 }
 
@@ -350,7 +350,7 @@ font-display: block;
 /* Add a grey background color on mouse-over */
 
 .hamburg a {
-  color: #000;
+  color: #383633;
 }
 
 .hamburg a:hover {
@@ -462,7 +462,9 @@ text-align: left;
   display: none;
 }
 
-
+.turn-gold {
+  color: #383633;
+}
 @media only screen and (min-width: 25em) {
 
 .arrow, .down {
@@ -694,6 +696,9 @@ hr {
     display:block;
   }
 
+  .turn-gold {
+    color: #BDAB64;
+  }
   .sticky {
     position:inherit;
   }
