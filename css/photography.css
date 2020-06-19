@@ -8,7 +8,7 @@
 .mySlides {
   display: none;
   padding: 80px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Next & previous buttons */
@@ -18,7 +18,7 @@
   top: 50%;
   width: auto;
   margin-top: -30px;
-  padding: 16px;
+  padding: 10px;
   color: #888;
   font-weight: bold;
   font-size: 20px;
@@ -281,6 +281,7 @@ q {font-style: italic;}
 
   .card {
     width: 75%;
+
     padding-right: 3em;
     padding-left: 10em;
     position: relative;
@@ -531,5 +532,14 @@ q {font-style: italic;}
     bottom: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 98em) {
+
+  .next {
+    position: absolute;
+    right: 20%;
+    border-radius: 3px 0 0 3px;
   }
 }
