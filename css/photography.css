@@ -249,6 +249,9 @@ q {font-style: italic;}
 
 }
 
+.video {
+
+}
 
 @media only screen and (min-width: 40em) {
   .img-left {
@@ -279,8 +282,9 @@ q {font-style: italic;}
 
 @media only screen and (min-width: 64em) {
 
+
   .card {
-    width: 75%;
+    width: 85%;
 
     padding-right: 3em;
     padding-left: 10em;
