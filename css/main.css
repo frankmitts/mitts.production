@@ -225,7 +225,7 @@ input {
 
   position: relative;
   width: 100%;
-  height: 50%;
+  height: auto;
 }
 
 /* text location banners */
@@ -395,7 +395,6 @@ font-display: block;
 }
 
 .card-text-r p {
-
 text-align: left;
 }
 
@@ -523,17 +522,6 @@ text-align: left;
     top: 20%;
     left: 60%;
     }
-    .card-text-r p {
-
-    }
-
-    .card-text-r h2 {
-
-    }
-
-    .card-text-r a {
-
-    }
 
   .stage-h1 {
     line-height: normal;
@@ -659,14 +647,6 @@ hr {
     position: absolute;
     top: 20%;
     left: 60%;
-    }
-    .card-text-r p {
-    }
-
-    .card-text-r h2 {
-    }
-
-    .card-text-r a {
     }
 
 @media only screen and (min-width: 64em) {
