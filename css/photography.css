@@ -485,6 +485,7 @@ q {font-style: italic;}
 
   .regular-wrapper {
     width: 100%;
+    padding-top: 4em;
     height: 100%;
     background-color: #042616;
     z-index: 2;
