@@ -354,7 +354,7 @@ q {font-style: italic;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/photography/hero-banner/home-banner-1.jpg");
+    background-image: url("../images/photography/clara/img (26).jpg");
     position: absolute;
     z-index: -1;
     transform: translatez(-1px) scale(2);
@@ -532,7 +532,7 @@ q {font-style: italic;}
 
   .bottom-centered {
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
