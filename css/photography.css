@@ -223,6 +223,14 @@ q {font-style: italic;}
   transform: translate(-50%, -50%);
 }
 
+.centered-right {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+
 /* Centered text */
 .centered-left {
   position: absolute;
@@ -354,7 +362,7 @@ q {font-style: italic;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/photography/sarah (2).jpg");
+    background-image: url("../images/photography/hero-banner/image-11.jpg");
     position: absolute;
     z-index: -1;
     transform: translatez(-1px) scale(2);
