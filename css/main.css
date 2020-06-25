@@ -222,7 +222,6 @@ input {
 
   background-position: center;
   background-repeat: no-repeat;
-
   position: relative;
   width: 100%;
   height: auto;
@@ -355,6 +354,15 @@ font-display: block;
 
 .hamburg a:hover {
   color: #f2a603;
+  transition: all .2s linear;
+}
+
+.hamburg2 a {
+  color: #Faf6ea;
+}
+
+.hamburg2 a:hover {
+  color: #eeeae0;
   transition: all .2s linear;
 }
 
