@@ -271,13 +271,33 @@ body {
   overflow-y: auto;
 }
 
+.parallax-wrapper0 {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+
+.parallax-wrapper0::before {
+  content:"";
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/photography/lifestyle/image-11v2.jpg");
+  position: absolute;
+  z-index: -1;
+  transform: translatez(-1px) scale(2);
+}
+
 .parallax-wrapper {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
-
-
 }
 
 .parallax-wrapper::before {
@@ -312,6 +332,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../images/photography/hero-banner/shot-04.jpg");
+  position: absolute;
+  z-index: -1;
+  transform: translatez(-1px) scale(2);
+}
+
+.parallax-wrapper20 {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+
+.parallax-wrapper20::before {
+  content:"";
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/photography/stage-02/shot-08.jpg");
   position: absolute;
   z-index: -1;
   transform: translatez(-1px) scale(2);
