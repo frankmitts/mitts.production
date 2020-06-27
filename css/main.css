@@ -136,6 +136,10 @@ li a:active {
   color: #BDAB64;
 }
 
+.gold-bg {
+  background-color: #BDAB64;
+}
+
 
 .darkgreen {
   color:#042616;
@@ -230,7 +234,7 @@ input {
 
 /* text location banners */
 
-.hero-text h1 {
+.hero-text  {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -365,7 +369,7 @@ font-display: block;
 
 
 .arrow {
-  border: solid white;
+  border: solid #949485;
   border-width: 0 6px 6px 0;
   display: inline-block;
   padding: 6px;
@@ -463,6 +467,11 @@ text-align: left;
 
 .turn-gold {
   color: #383633;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
 }
 @media only screen and (min-width: 25em) {
 
