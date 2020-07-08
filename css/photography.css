@@ -362,7 +362,7 @@ q {font-style: italic;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/photography/hero-banner/image-11.jpg");
+    background-image: url("../images/photography/sarah-(2).jpg");
     position: absolute;
     z-index: -1;
     transform: translatez(-1px) scale(2);
@@ -408,7 +408,7 @@ q {font-style: italic;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/photography/hero-banner/home-banner-4.jpg");
+    background-image: url("../images/photography/hero-banner/home-banner-5.jpg");
     position: absolute;
     z-index: -1;
     transform: translatez(-1px) scale(2);
@@ -477,7 +477,30 @@ q {font-style: italic;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/photography/clara/img (9).jpg");
+    background-image: url("../images/photography/clara/img-(2).jpg");
+    position: absolute;
+    z-index: -1;
+    transform: translatez(-1px) scale(2);
+  }
+
+  .parallax-wrapper7 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2em;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-wrapper7::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photography/sarah/sarah-06.jpg");
     position: absolute;
     z-index: -1;
     transform: translatez(-1px) scale(2);
@@ -497,7 +520,7 @@ q {font-style: italic;}
     width: 100%;
     padding-top: 2em;
     height: 100%;
-    background-color: #042616;
+    background-color: #383633;
     z-index: 2;
     position: relative;
   }
