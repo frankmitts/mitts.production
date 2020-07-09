@@ -223,7 +223,6 @@ label {
 }
 
 input {
-  border-radius: 30px;
   border: none;
   border-bottom: 2px solid #dcdcdc;
 }
@@ -425,6 +424,24 @@ text-align: left;
 }
 
 /* btn*/
+.btn-contact {
+  display: inline-block;
+  border-radius: 30px;
+  border: 1px solid #949485;
+  color: #949485;
+  padding: 10px 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.btn-contact:hover {
+  background-color: #383633;
+  color: #fff;
+  transition: all 0.5s;
+
+}
+
 .btn-m {
   display: inline-block;
   border-radius: 30px;
@@ -436,7 +453,7 @@ text-align: left;
 
 }
 
-.btn-m span {
+.btn-m {
   color: #949485;
 
   cursor: pointer;
@@ -445,7 +462,7 @@ text-align: left;
   transition: 0.5s;
 }
 
-.btn-m span:after {
+.btn-m:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -454,12 +471,12 @@ text-align: left;
   transition: 0.2s;
 }
 
-.btn-m:hover span {
+.btn-m:hover {
 
   padding-right: 25px;
 }
 
-.btn-m:hover span:after {
+.btn-m:hover:after {
   opacity: 1;
   right: 0;
 }

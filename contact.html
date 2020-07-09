@@ -77,9 +77,9 @@ gtag('config', 'UA-169562309-1');
       </div>
 
       <ul class=" push-0 unit s-1 text-center bigheader">
-        <span class="gutter-2"><a class="dark btn-solid push-0" href="editorial.html">Editorial</a></span>
-        <span class="gutter-2"><a class="dark btn-solid  push-0" href="motion.html">Motion</a></span>
-        <span class="gutter-2"><a class="btn-active dark btn-solid push-0" href="contact.html">Contact</a></span>
+        <span class="gutter-2"><a class="milli dark btn-solid push-0" href="editorial.html">Editorial</a></span>
+        <span class="gutter-2"><a class="milli dark btn-solid  push-0" href="motion.html">Motion</a></span>
+        <span class="gutter-2"><a class="milli btn-active dark btn-solid push-0" href="contact.html">Contact</a></span>
       </ul>
     </div>
   </div>
@@ -118,7 +118,7 @@ gtag('config', 'UA-169562309-1');
           <textarea class="" name="Message" id="Message" placeholder="  Message..."></textarea>
         </div>
             <div class="unit xs-1 gutter-2">
-              <div class=" gutter-2"><input class="btn-hero submit-button" type="submit" name="submit" value="Send Your Message"/></div>
+              <div class=" gutter-2"><input class="btn-contact submit-button" type="submit" name="submit" value="Send Your Message"/></div>
             </div>
           </form>
           <div style="clear: both;"></div>
@@ -193,6 +193,34 @@ gtag('config', 'UA-169562309-1');
           } else {
             x.style.display = "block";
           }
+        }
+        </script>
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
         }
         </script>
       </body>
