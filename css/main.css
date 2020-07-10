@@ -422,8 +422,7 @@ text-align: left;
 /* btn*/
 .btn-contact {
   display: inline-block;
-  border-radius: 30px;
-  border: 1px solid #949485;
+  border: 2px solid #949485;
   color: #949485;
   padding: 10px 30px;
   transition: all 0.5s;
